@@ -1,0 +1,870 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>共テ政経</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjExMiIgZmlsbD0iIzEwMjEzYSIvPjxwYXRoIGQ9Ik0xMTggOTJWNDA0SDQyMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZThlZWY4IiBzdHJva2Utd2lkdGg9IjIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTYwIiB5MT0iMTQwIiB4Mj0iMzkwIiB5Mj0iMzYwIiBzdHJva2U9IiNmMjhjMjgiIHN0cm9rZS13aWR0aD0iMzAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxsaW5lIHgxPSIxNjAiIHkxPSIzNjAiIHgyPSIzOTAiIHkyPSIxNDAiIHN0cm9rZT0iIzM4YTllMCIgc3Ryb2tlLXdpZHRoPSIzMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMjc1IiBjeT0iMjUwIiByPSIyNCIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef2f7;--card:#fff;--ink:#0f1c33;--sub:#5b6b84;--line:#dbe3ee;--acc:#3b5bdb;--onacc:#fff;--ok:#0b9a86;--ng:#e0475f;--okbg:#dcf5ef;--ngbg:#fde4e9;--sh:0 1px 2px rgba(15,28,51,.06),0 10px 28px -14px rgba(15,28,51,.25);color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1322;--card:#142038;--ink:#e8eef8;--sub:#9fb0c9;--line:#26354f;--acc:#8aa8ff;--onacc:#0b1322;--ok:#3fd1bb;--ng:#ff7388;--okbg:#0f3a31;--ngbg:#431c28;--sh:0 1px 2px rgba(0,0,0,.4),0 10px 28px -14px rgba(0,0,0,.6);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0b1322;--card:#142038;--ink:#e8eef8;--sub:#9fb0c9;--line:#26354f;--acc:#8aa8ff;--onacc:#0b1322;--ok:#3fd1bb;--ng:#ff7388;--okbg:#0f3a31;--ngbg:#431c28;--sh:0 1px 2px rgba(0,0,0,.4),0 10px 28px -14px rgba(0,0,0,.6);color-scheme:dark}
+:root{--g1:#f28c28;--g2:#38a9e0}
+:root[data-theme="gold"]{--bg:#050506;--card:#0e0e10;--ink:#f6f1e3;--sub:#a79f8a;--line:#2b2615;--acc:#f2c94c;--onacc:#0a0a0a;--ok:#f2c94c;--okbg:#2b2308;--ng:#ff5a6e;--ngbg:#2b0e15;--g1:#f2c94c;--g2:#e9e9ee;--sh:0 0 0 1px rgba(212,175,55,.28),0 0 26px -8px rgba(255,255,255,.22);color-scheme:dark}
+:root[data-theme="gold"] body{background:radial-gradient(130% 55% at 50% -8%,rgba(255,255,255,.13),transparent 62%),radial-gradient(90% 40% at 100% 100%,rgba(212,175,55,.10),transparent 60%),#050506;background-attachment:fixed}
+:root[data-theme="gold"] .ttl,:root[data-theme="gold"] .big,:root[data-theme="gold"] .cs{background:linear-gradient(180deg,#fff7d8,#f2c94c 55%,#b8891b);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 10px rgba(255,255,255,.28))}
+:root[data-theme="gold"] .ttl small,:root[data-theme="gold"] .big small{-webkit-text-fill-color:var(--sub);filter:none}
+:root[data-theme="gold"] .go,:root[data-theme="gold"] .nx{background:linear-gradient(180deg,#ffe58a,#d4af37 60%,#a97c14);color:#1a1405;box-shadow:0 0 24px rgba(242,201,76,.45),inset 0 1px 0 rgba(255,255,255,.7)}
+:root[data-theme="gold"] .card,:root[data-theme="gold"] .q,:root[data-theme="gold"] .opt,:root[data-theme="gold"] .kopt,:root[data-theme="gold"] .zc,:root[data-theme="gold"] .fb{border-color:rgba(212,175,55,.3)}
+:root[data-theme="gold"] #tabs{background:rgba(8,8,9,.92);border-top:1px solid rgba(212,175,55,.5);box-shadow:0 -10px 34px rgba(255,255,255,.06)}
+:root[data-theme="gold"] #tabs button.on{background:rgba(212,175,55,.12);text-shadow:0 0 12px rgba(242,201,76,.8)}
+:root[data-theme="gold"] .opt.ok,:root[data-theme="gold"] .kopt.ok,:root[data-theme="gold"] .fb.ok{box-shadow:0 0 22px rgba(242,201,76,.4)}
+:root[data-theme="gold"] .opt.ng,:root[data-theme="gold"] .kopt.ng,:root[data-theme="gold"] .fb.ng{box-shadow:0 0 18px rgba(255,90,110,.35)}
+:root[data-theme="gold"] .chip.on{color:#1a1405;box-shadow:0 0 16px rgba(242,201,76,.35)}
+:root[data-theme="gold"] .t.cur{background:#fff;box-shadow:0 0 8px #fff}
+:root[data-theme="gold"] .zbar i,:root[data-theme="gold"] .bar .fl{background:linear-gradient(90deg,#b8891b,#f2c94c,#fff7d8);box-shadow:0 0 10px rgba(242,201,76,.6)}
+:root[data-theme="gold"] svg circle{filter:drop-shadow(0 0 4px rgba(255,255,255,.85))}
+:root[data-theme="gold"] svg path{filter:drop-shadow(0 0 2px rgba(255,255,255,.35))}
+#mode{position:fixed;top:calc(10px + env(safe-area-inset-top,0px));right:12px;z-index:30;width:38px;height:38px;border-radius:50%;border:1.5px solid var(--line);background:var(--card);color:var(--acc);font-family:'Dela Gothic One',sans-serif;font-size:15px;cursor:pointer;box-shadow:var(--sh)}
+:root[data-theme="gold"] #mode{border-color:rgba(242,201,76,.7);box-shadow:0 0 16px rgba(242,201,76,.5)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Zen Kaku Gothic New','Hiragino Sans','Yu Gothic',sans-serif;line-height:1.7}
+main{max-width:560px;margin:0 auto;padding:20px 16px 116px}
+button{font:inherit}button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+h1,.big,.zn,.zg,.cs{font-family:'Dela Gothic One','Zen Kaku Gothic New',sans-serif;font-weight:400}
+.ttl{font-size:30px;line-height:1.2;margin:6px 4px 18px}.ttl small{display:block;font-family:'Zen Kaku Gothic New',sans-serif;font-size:13px;font-weight:700;color:var(--sub);margin-top:6px}
+.card{background:var(--card);border-radius:20px;padding:16px;margin-bottom:14px;box-shadow:var(--sh)}
+.lab{font-size:13px;font-weight:900;color:var(--sub);margin:0 0 10px;letter-spacing:.04em}
+.sub{color:var(--sub);margin:0 0 12px;font-size:14px}
+.note{font-size:12px;color:var(--sub);margin:6px 4px 14px}
+.gh{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.mini{border:1.5px solid var(--line);background:transparent;color:var(--sub);border-radius:99px;padding:6px 12px;font-size:13px;font-weight:700;cursor:pointer}
+.go,.nx{display:block;width:100%;min-height:56px;border:0;border-radius:16px;background:var(--acc);color:var(--onacc);font-weight:900;font-size:18px;cursor:pointer;margin:0 0 10px;box-shadow:0 10px 22px -10px var(--acc)}
+.ghost{display:block;width:100%;min-height:48px;border:2px solid var(--line);border-radius:14px;background:transparent;color:var(--ink);font-weight:700;font-size:15px;cursor:pointer;margin:0 0 10px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:2px solid var(--cc,var(--line));background:transparent;color:var(--ink);padding:8px 14px;min-height:40px;border-radius:14px;font-weight:700;font-size:14px;text-align:left;cursor:pointer}
+.chip small{opacity:.7}.chip.on{background:var(--cc,var(--ink));color:#10213a}.chip:disabled{opacity:.45}
+.big{font-size:64px;line-height:1;margin:0 0 4px}.big small{font-size:16px;color:var(--sub);margin-left:6px;font-family:'Zen Kaku Gothic New',sans-serif;font-weight:700}
+#tabs{position:fixed;left:0;right:0;bottom:0;display:none;justify-content:center;gap:6px;background:var(--card);border-top:1px solid var(--line);padding:8px 12px calc(8px + env(safe-area-inset-bottom,0px));z-index:20}
+#tabs button{flex:1;max-width:180px;height:48px;border:0;border-radius:14px;background:transparent;color:var(--sub);font-weight:900;font-size:13px;padding:0 2px;cursor:pointer}
+#tabs button.on{background:var(--bg);color:var(--acc)}
+.cs{font-size:22px;margin:0 0 10px}
+input[type=range]{width:100%;height:32px;accent-color:var(--acc)}
+svg{display:block;max-width:100%}
+#tip:empty{display:none}#tip{font-weight:700;font-size:14px;background:var(--bg);border-radius:12px;padding:10px 12px;margin:12px 0 0}
+#cd .go{margin-bottom:14px}
+#cl,#un{background:var(--card);border-radius:20px;padding:16px;margin-bottom:14px;box-shadow:var(--sh)}#un:empty{display:none}
+.bands{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.bdb{display:flex;justify-content:space-between;align-items:center;text-align:left;min-height:52px;background:var(--card);color:var(--ink);border:2px solid var(--line);border-left:8px solid var(--bc);border-radius:14px;padding:8px 12px;cursor:pointer}
+.bdb.on{border-color:var(--bc);background:var(--bg)}.bdb span{font-weight:700;color:var(--sub)}
+.in{width:100%;min-height:48px;border:2px solid var(--line);border-radius:12px;padding:0 12px;font:inherit;background:var(--bg);color:var(--ink);margin-bottom:8px}.rk{gap:10px}.rn{width:28px;font-family:'Dela Gothic One',sans-serif;font-weight:400;color:var(--sub)}.row.me{background:var(--bg);border-radius:10px;padding:8px}.bl{margin-bottom:6px}.row{display:flex;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}.row span:nth-child(2){flex:1}
+details{color:var(--sub);font-size:13px}.nm{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}.nm span{border:1px solid var(--line);border-radius:99px;padding:1px 9px}
+.cal{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:8px}.cal div{background:var(--bg);border-radius:12px;padding:8px;display:flex;flex-direction:column}.cal b{font-size:11px;line-height:1.3}.cal span{font-family:'Dela Gothic One',sans-serif;font-size:24px}.cal small{color:var(--sub)}
+.weak{background:var(--ngbg);border:2px solid var(--ng);border-radius:14px;padding:12px 16px;margin-bottom:14px;font-weight:700}
+.gauge{display:flex;gap:4px;margin-bottom:14px}.t{flex:1;height:8px;border-radius:99px;background:var(--line)}.t.ok{background:var(--ok)}.t.ng{background:var(--ng)}.t.cur{background:var(--ink)}
+.meta{display:flex;justify-content:space-between;gap:8px;font-size:13px;font-weight:700;color:var(--sub);margin-bottom:10px}.meta b{color:var(--acc);white-space:nowrap}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
+.q{font-size:19px;line-height:1.6;font-weight:900;margin:0 0 16px;background:var(--card);border-radius:20px;padding:18px;box-shadow:var(--sh)}
+.opts{display:grid;gap:10px;counter-reset:o}
+.opt{counter-increment:o;display:grid;grid-template-columns:30px 1fr;align-items:center;text-align:left;min-height:56px;background:var(--card);color:var(--ink);border:2px solid var(--line);border-radius:16px;padding:12px 14px;font-weight:700;font-size:16px;cursor:pointer;box-shadow:var(--sh)}
+.opt::before{content:counter(o,upper-alpha);width:24px;height:24px;border-radius:50%;background:var(--bg);display:grid;place-items:center;font-size:12px;font-weight:900;color:var(--sub)}
+.opt small{grid-column:2;display:block;font-weight:400;font-size:13px;margin-top:4px;color:var(--sub)}
+.opt.pk{border-color:var(--acc);background:var(--bg)}.opt.ok{background:var(--okbg);border-color:var(--ok)}.opt.ng{background:var(--ngbg);border-color:var(--ng)}.opt.dim{opacity:.8}
+.fb{margin-top:14px;border-radius:20px;padding:16px;background:var(--card);border:2px solid var(--line);box-shadow:var(--sh);animation:pop .22s ease-out}
+.fb.ok{border-color:var(--ok)}.fb.ng{border-color:var(--ng)}.fb .v{font-weight:900;font-size:18px;margin:0 0 6px}.fb.ok .v{color:var(--ok)}.fb.ng .v{color:var(--ng)}.fb p{margin:0 0 12px}.fb .nx{margin:0}
+.cf{display:grid;grid-template-columns:1fr 1fr;gap:8px}.cf button{min-height:52px;border:2px solid var(--line);background:var(--card);color:var(--ink);border-radius:14px;font-weight:900;font-size:16px;cursor:pointer}.cf button:nth-child(3){grid-column:1/-1;border-color:var(--ng);color:var(--ng)}
+@keyframes pop{from{transform:translateY(6px);opacity:0}to{transform:none;opacity:1}}
+.rank{font-weight:900;font-size:20px;margin:0 0 20px}
+.bars{display:grid;gap:12px;margin-bottom:22px}.bar .r{display:flex;justify-content:space-between;font-weight:700;font-size:14px;margin-bottom:4px}.bar .tr{height:12px;border-radius:99px;background:var(--line);overflow:hidden}.bar .fl{height:100%;background:var(--acc);border-radius:99px}
+.kopts{display:grid;gap:10px}.kopt{text-align:left;min-height:56px;background:var(--card);color:var(--ink);border:2px solid var(--line);border-radius:16px;padding:12px 14px;font-weight:700;font-size:15px;cursor:pointer;box-shadow:var(--sh)}.kopt.ok{background:var(--okbg);border-color:var(--ok)}.kopt.ng{background:var(--ngbg);border-color:var(--ng)}.kopt.dim{opacity:.7}.kb p{margin:0 0 8px}.kb p:last-child{margin:0}table.kt{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}.kt th,.kt td{border:1px solid var(--line);padding:6px 8px;text-align:center}.kt th{background:var(--bg)}.ghost:disabled{opacity:.4}.zg{font-size:20px;margin:24px 0 2px;padding-left:10px;border-left:8px solid}.zu{font-weight:900;margin:14px 0 0;font-size:14px}.zu small{color:var(--sub);font-weight:400}
+.zc{display:flex;align-items:center;gap:10px;width:100%;text-align:left;background:var(--card);color:var(--ink);border:2px solid var(--line);border-left:8px solid var(--cc);border-radius:14px;padding:10px 12px;margin-top:8px;cursor:pointer;box-shadow:var(--sh)}
+.zn{font-size:13px;color:var(--sub)}.zt{flex:1;display:flex;flex-direction:column}.zt small{color:var(--sub);font-size:12px}.zr{font-weight:900}
+.zd{background:var(--card);border:2px solid var(--line);border-radius:14px;padding:12px 14px;margin-top:4px;font-size:14px}.zd p{margin:0 0 8px}.zq{font-weight:900}.zw small{color:var(--sub)}
+.zs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:10px 0}.zs div{background:var(--bg);border-radius:10px;padding:6px;text-align:center;font-size:12px}.zs b{display:block;font-size:20px}
+.zsel{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}.zsel select{font:inherit;padding:10px;border-radius:12px;border:2px solid var(--line);background:var(--card);color:var(--ink);min-width:0}
+.zbar{height:10px;border-radius:99px;background:var(--line);overflow:hidden}.zbar i{display:block;height:100%;background:var(--acc)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<main id="app"></main>
+<nav id="tabs" aria-label="メイン"></nav>
+<button id="mode" aria-label="金黒モードの切替" onclick="tm()">金</button>
+<script>
+const RAW=[
+['政治','内閣総理大臣を指名するのはどこか。','国会',['天皇','最高裁判所長官','衆議院議長'],'国会が国会議員の中から議決で指名する。天皇は任命するだけで、それは国事行為だ。'],
+['政治','衆議院の優越が「認められない」ものはどれか。','憲法改正の発議',['予算の議決','条約の承認','内閣総理大臣の指名'],'発議は各議院の総議員の3分の2以上の賛成が必要で、衆参は対等。他の3つは衆議院が優越する。'],
+['政治','衆議院が内閣不信任案を可決したとき、内閣がとるべき行動は。','10日以内に衆議院を解散するか総辞職する',['参議院の同意を得て続投する','直ちに総辞職するしかない','最高裁判所の判断を仰ぐ'],'憲法69条。10日以内に解散か総辞職の二択。解散なら総選挙後に内閣は総辞職し、新たに首相を指名する流れだ。'],
+['政治','憲法改正に必要な国民投票の承認要件はどれか。','有効投票の過半数',['有権者総数の過半数','有効投票の3分の2','有権者総数の3分の2'],'国民投票法の定めでは、有効投票の過半数。分母が「有効投票」である点が引っかけどころだ。'],
+['政治','法律が憲法に適合するかを最終的に判断する機関はどこか。','最高裁判所',['内閣法制局','国会','憲法審査会'],'違憲審査権は全ての裁判所が持つが、最終判断は最高裁判所。だから「憲法の番人」と呼ばれる（81条）。'],
+['政治','日本の比例代表選挙で用いられる議席配分方式はどれか。','ドント式',['小選挙区制','単記移譲式','ボルダ方式'],'各党の得票数を1、2、3…で割り、商の大きい順に議席を配る方式がドント式だ。'],
+['政治','憲法25条が保障する「健康で文化的な最低限度の生活」の権利は。','生存権',['教育を受ける権利','参政権','財産権'],'生存権は社会権の中心。国に積極的な施策を求める権利で、自由権とは性質が違う。'],
+['政治','『法の精神』で三権分立を唱えた人物は。','モンテスキュー',['ロック','ルソー','ホッブズ'],'ロックは抵抗権と二権分立、ルソーは人民主権と一般意志。名前と主張をセットで覚えろ。'],
+['政治','通常国会（常会）の会期は原則何日か。','150日',['90日','120日','180日'],'毎年1回、1月中に召集され、会期は150日。延長は1回に限られる。'],
+['経済','所得が増えると需要が増える財（上級財）で、所得が増えたときの需要曲線は。','右にシフトする',['左にシフトする','曲線上を右下へ動く','変化しない'],'価格以外の要因が変われば曲線そのものがシフトする。価格の変化なら曲線上の移動だ。区別できなければ話にならん。'],
+['経済','寡占市場で有力企業が主導し、下がりにくくなる価格を何というか。','管理価格',['均衡価格','公共料金','市場価格'],'価格競争が避けられ、品質や広告で競う非価格競争になりやすい。これも合わせて押さえろ。'],
+['経済','独占禁止法を運用する行政機関はどこか。','公正取引委員会',['消費者庁','経済産業省','日本銀行'],'カルテルや私的独占の取り締まりが仕事。内閣から独立して職権を行う行政委員会だ。'],
+['経済','景気が過熱しているとき、日本銀行が行う公開市場操作は。','売りオペレーション',['買いオペレーション','国債の大量発行','政策金利の引き下げ'],'国債などを売って市中の資金を吸収し、金利を上げて景気を冷ます。買いオペはその逆だ。'],
+['経済','ビルトイン・スタビライザーの例はどれか。','累進課税制度',['公共事業の追加','政策金利の変更','国債の追加発行'],'制度に組み込まれ、裁量なしで自動的に景気を安定させる。公共事業の追加はフィスカル・ポリシー（裁量的）。'],
+['経済','GDP（国内総生産）が表すものはどれか。','国内で一定期間に生み出された付加価値の合計',['国民が持つ資産の残高','国内の売上高の総額','政府予算の規模'],'売上総額だと中間生産物を二重に数えるので、付加価値を合計する。ストックでなくフローの概念だ。'],
+['経済','インフレ（物価上昇）が続くとき、実質的に有利になるのは。','借金をしている人',['現金預金を持つ人','定額の年金で暮らす人','貸した側（債権者）'],'貨幣価値が下がるので、借金の実質的な負担は軽くなる。貸した側や預金者は目減りして損をする。'],
+['経済','間接税に当たるのはどれか。','消費税',['所得税','法人税','相続税'],'納税者と税の負担者が異なるものが間接税。他の3つは直接税。'],
+['国際・社会','比較生産費説を唱えた経済学者は。','リカード',['アダム＝スミス','マルサス','ケインズ'],'各国が相対的に得意な財に特化して貿易すれば、双方が利益を得る。スミスは「見えざる手」、ケインズは有効需要だ。'],
+['国際・社会','円高が進んだとき、一般に起こることはどれか。','輸入品が円で割安になる',['輸出企業が有利になる','外貨預金の円換算額が増える','訪日外国人が増えやすくなる'],'1ドル150円から100円になれば、1ドルの輸入品の円価格は下がる。輸出企業は不利になる。'],
+['国際・社会','国際収支の「経常収支」に含まれるのはどれか。','第一次所得収支',['金融収支','資本移転等収支','外貨準備の増減'],'経常収支は、貿易・サービス収支、第一次所得収支、第二次所得収支の合計。外貨準備は金融収支に入る。'],
+['国際・社会','国連安全保障理事会で拒否権を持つ常任理事国は何か国か。','5か国',['3か国','10か国','15か国'],'米・英・仏・露・中の5か国。実質事項の議決は、常任理事国のどれか1国でも反対すれば成立しない。'],
+['国際・社会','1995年にGATTを発展的に引き継いで発足した国際機関は。','WTO',['IMF','OECD','UNCTAD'],'WTOは紛争処理機能が強化されている。IMFは通貨・国際収支の安定が担当だ。'],
+['国際・社会','日本の公的年金の財政方式の基本はどれか。','賦課方式',['積立方式','完全民営方式','全額税方式'],'現役世代の保険料で現在の高齢者を支える仕組みが基本。少子高齢化で負担問題が出るのはここが原因だ。'],
+['国際・社会','労働三法に「含まれない」ものはどれか。','男女雇用機会均等法',['労働基準法','労働組合法','労働関係調整法'],'労働三法は労働基準法、労働組合法、労働関係調整法。均等法は別の法律だ。'],
+['国際・社会','四日市ぜんそくの原因として正しいものは。','工場による大気汚染',['工場排水のメチル水銀','カドミウムによる汚染','土壌汚染'],'メチル水銀は水俣病、カドミウムはイタイイタイ病。四日市は大気汚染。組み合わせで暗記しろ。']
+];
+const N1=['首相指名','衆院の優越','内閣不信任','国民投票','違憲審査','ドント式','生存権','三権分立','常会','上級財シフト','管理価格','公取委','売りオペ','自動安定装置','GDP','インフレと債務者','間接税','比較生産費','円高','経常収支','安保理拒否権','WTO','賦課方式','労働三法','四日市ぜんそく'];
+const RAW2=[
+['政治','国事行為','天皇の国事行為に必要なものは。','内閣の助言と承認',['国会の承認','最高裁の同意','首相の単独判断'],'憲法3条。責任は内閣が負う。'],
+['政治','戦力不保持','憲法9条2項前段が定めるのは。','戦力の不保持',['集団的自衛権の行使','文民統制','非核三原則'],'2項で戦力の不保持と交戦権の否認を定める。文民統制は66条。'],
+['政治','閣僚の資格','国務大臣について正しいのはどれか。','全員が文民で、過半数は国会議員',['全員が国会議員','全員が衆議院議員','全員が官僚出身'],'憲法66条・68条。'],
+['政治','議院内閣制','議院内閣制の特徴はどれか。','内閣が国会に連帯責任を負う',['首相を国民が直接選ぶ','内閣に解散権がない','大統領が法案拒否権を持つ'],'66条3項。'],
+['政治','公共の福祉','人権の制約原理として憲法が用いる語は。','公共の福祉',['国家の安全','公序良俗','国益'],'12・13・22・29条に出てくる。'],
+['政治','環境権の根拠','環境権の根拠として主張される条文は。','13条と25条',['9条','21条','96条'],'新しい人権は主に幸福追求権（13条）から導く。'],
+['政治','被選挙権','衆議院議員の被選挙権は何歳以上か。','25歳',['18歳','20歳','30歳'],'参議院と都道府県知事は30歳。'],
+['政治','参院の任期','参議院議員の任期と改選方式は。','6年・3年ごとに半数改選',['4年・解散あり','6年・全員改選','4年・半数改選'],'参議院に解散はない。'],
+['政治','民主主義の学校','ブライスが地方自治をたとえた言葉は。','民主主義の学校',['民主主義の砦','民主主義の源泉','民主主義の防波堤'],'住民が身近な政治に参加して学ぶ場という意味。'],
+['政治','直接請求','条例の制定・改廃請求に必要な署名数は。','有権者の50分の1以上',['有権者の3分の1以上','有権者の10分の1以上','有権者の2分の1以上'],'解職・解散請求は原則3分の1（規模で例外あり）。'],
+['政治','地方交付税','使途が限定されない国から地方への財源は。','地方交付税',['国庫支出金','地方債','地方税'],'国庫支出金は使途が特定される。'],
+['政治','裁判員制度','裁判員制度の対象はどれか。','重大な刑事事件の第一審',['民事訴訟の控訴審','全ての刑事事件','行政訴訟'],'2009年開始。'],
+['政治','控訴','第一審判決に不服で第二審を求める手続きは。','控訴',['上告','抗告','再審'],'第三審を求めるのが上告。'],
+['政治','再審','確定判決の誤りを正すための手続きは。','再審',['控訴','上告','恩赦'],'冤罪の救済で問題になる。'],
+['政治','罪刑法定主義','「法律なければ犯罪なし」を表す原則は。','罪刑法定主義',['推定無罪の原則','二重処罰の禁止','法の下の平等'],'憲法31条。'],
+['政治','令状主義','逮捕に原則必要なものは。','裁判官の令状',['検察官の許可書','警察署長の通達','弁護人の同意書'],'憲法33条。現行犯は例外。'],
+['政治','並立制','現行の衆議院の選挙制度は。','小選挙区比例代表並立制',['大選挙区制','比例代表のみ','中選挙区制'],'1994年の改革で導入。'],
+['政治','一票の格差','一票の格差が問われる憲法上の原則は。','法の下の平等',['表現の自由','団結権','生存権'],'最高裁は違憲状態と判断したことがある。'],
+['政治','玉串料訴訟','愛媛玉串料訴訟の最高裁判断は。','違憲',['合憲','審理せず','却下'],'1997年。公金支出が20条・89条に反するとした。'],
+['政治','長官の指名','内閣が行うのはどれか。','最高裁判所長官の指名',['裁判官の弾劾','判決の取り消し','最高裁判事の罷免'],'任命は天皇が行う。弾劾は国会。'],
+['政治','弾劾裁判所','裁判官を罷免するか判断する機関は。','国会の弾劾裁判所',['最高裁大法廷','閣議','法務省'],'国会が裁判所に抑制をかける例。'],
+['政治','国政調査権','証人喚問などができる国会の権限は。','国政調査権',['弾劾権','予算先議権','質問主意書'],'憲法62条。'],
+['政治','委員会中心','国会の実質的な審議の中心は。','委員会',['本会議','首相官邸','党首会談'],'委員会中心主義と呼ぶ。'],
+['政治','緊急集会','衆議院の解散中、緊急の必要が生じたとき開かれるのは。','参議院の緊急集会',['臨時会','特別会','常会'],'次の国会開会後10日以内に衆議院の同意が必要。'],
+['政治','特別会','衆議院総選挙後30日以内に召集される国会は。','特別会',['常会','臨時会','緊急集会'],'首相指名を行う。'],
+['経済','必需品の弾力性','必需品の需要の価格弾力性は一般にどうか。','小さい',['大きい','無限大','常にゼロ'],'値上がりしても買うので需要が減りにくい。'],
+['経済','供給のシフト','原材料費が上がると供給曲線は。','左にシフトする',['右にシフトする','変わらない','垂直になる'],'同じ価格での供給量が減る。'],
+['経済','超過需要','超過需要のとき、価格は。','上昇する',['下落する','変わらない','固定される'],'価格の自動調節機能。'],
+['経済','市場の失敗','市場の失敗の例でないものは。','需要と供給の一致',['外部不経済','公共財の不足','情報の非対称性'],'一致は均衡であって失敗ではない。'],
+['経済','外部不経済','公害のように取引外の第三者に不利益を与えることは。','外部不経済',['規模の経済','機会費用','限界効用'],'対策に課税などがある。'],
+['経済','公共財','非競合性と非排除性を持つ財は。','公共財',['私的財','上級財','奢侈品'],'ただ乗り（フリーライダー）が起こりやすい。'],
+['経済','機会費用','ある選択で諦めた最大の利益は。','機会費用',['埋没費用','限界費用','固定費用'],'選択の費用を測る考え方。'],
+['経済','カルテル','企業同士が価格などを協定する行為は。','カルテル',['トラスト','コンツェルン','コングロマリット'],'独禁法で原則禁止。トラストは合併。'],
+['経済','有限責任','株主の責任の範囲は。','出資額の範囲内',['全財産','取締役と同額','無制限'],'株式会社の特徴。'],
+['経済','CSR','企業の社会的責任の略称は。','CSR',['ROE','ODA','GDP'],'法令遵守や環境配慮などを含む。'],
+['経済','GNI','GDPに海外からの所得の純受取を加えたものは。','GNI',['NI','国内純生産','国民純福祉'],'国民総所得。'],
+['経済','実質GDP','名目GDPから物価変動の影響を除いたものは。','実質GDP',['国内純生産','国民所得','潜在GDP'],'経済成長率は実質で測る。'],
+['経済','キチンの波','在庫投資を原因とする短期の景気循環は。','キチンの波',['ジュグラーの波','クズネッツの波','コンドラチェフの波'],'ジュグラーは設備投資、コンドラチェフは技術革新。'],
+['経済','スタグフレーション','不況下で物価が上がる現象は。','スタグフレーション',['デフレスパイラル','リフレーション','ディスインフレ'],'1970年代の石油危機で顕在化。'],
+['経済','デフレ','物価下落と不況が悪循環する現象は。','デフレスパイラル',['スタグフレーション','バブル','クラウディングアウト'],'物価が下がり企業収益が悪化する循環。'],
+['経済','垂直的公平','累進課税が目指す公平は。','垂直的公平',['水平的公平','機会の公平','手続的公平'],'負担能力の大きい人ほど多く負担する。'],
+['経済','建設国債','財政法が原則として認める公債は。','建設国債',['赤字国債','外債','地方債'],'赤字国債は特例法で発行する。'],
+['経済','基礎的財政収支','国債費を除く歳出と公債金を除く歳入の差は。','プライマリーバランス',['経常収支','貿易収支','財政投融資'],'基礎的財政収支とも呼ぶ。'],
+['経済','クラウディングアウト','国債の大量発行で民間投資が抑えられる現象は。','クラウディングアウト',['ポリシーミックス','資産効果','ラチェット効果'],'金利の上昇が原因。'],
+['経済','預金準備率','日銀が預金準備率を引き上げると、銀行の貸出は。','減りやすくなる',['増えやすくなる','変わらない','全面停止する'],'貸出に回せる資金が減る。'],
+['経済','信用創造','預金をもとに貸出を繰り返し預金通貨を増やす仕組みは。','信用創造',['為替介入','量的緩和','金融仲介'],'銀行の重要な機能。'],
+['経済','量的緩和','政策金利が下げ止まったとき、資金供給量を増やす政策は。','量的緩和政策',['公定歩合操作','預金準備率操作','窓口規制'],'金利でなく量を目標にする。'],
+['経済','日銀の役割','日本銀行の役割でないものは。','一般企業への融資',['発券銀行','政府の銀行','銀行の銀行'],'日銀は一般企業に直接貸さない。'],
+['経済','再販売価格維持','再販売価格維持行為は独禁法で原則どうなっているか。','禁止',['奨励','自由','届出制'],'著作物などに例外がある。'],
+['経済','PL法','欠陥製品の被害で、企業の過失を立証しなくても賠償を求められる法律は。','製造物責任法',['消費者契約法','特定商取引法','独占禁止法'],'無過失責任を採用している。'],
+['国際・社会','国連総会','全加盟国が平等に1票を持つ国連の機関は。','総会',['安全保障理事会','経済社会理事会','事務局'],'安保理は常任理事国に拒否権。'],
+['国際・社会','ICJ','国同士の紛争を扱う国連の裁判所の所在地は。','ハーグ',['ジュネーブ','ニューヨーク','ウィーン'],'国際司法裁判所。'],
+['国際・社会','PKO','国連の平和維持活動の略称は。','PKO',['PKF','NGO','OPEC'],'停戦監視などを行う。'],
+['国際・社会','集団安全保障','侵略国に加盟国が共同で制裁する仕組みは。','集団安全保障',['勢力均衡','集団的自衛権','中立主義'],'国連はこの考え方に立つ。'],
+['国際・社会','NPT','核兵器の保有国の増加を防ぐ条約は。','核拡散防止条約',['部分的核実験禁止条約','対人地雷禁止条約','京都議定書'],'1968年に採択された。'],
+['国際・社会','ノン・ルフールマン','ノン・ルフールマン原則の意味は。','迫害の恐れがある国へ送還しない',['入国を全員拒否する','経済移民を優遇する','保護を無期限に拒否する'],'難民条約の核心。'],
+['国際・社会','国際人権規約','世界人権宣言に法的拘束力を持たせた条約は。','国際人権規約',['女子差別撤廃条約','児童の権利条約','人種差別撤廃条約'],'1966年に採択された。'],
+['国際・社会','ユーロ','EUの共通通貨は。','ユーロ',['ポンド','フラン','リラ'],'導入しない加盟国もある。'],
+['国際・社会','ブレグジット','2020年にEUを離脱した国は。','イギリス',['フランス','ギリシャ','スイス'],'2016年の国民投票が発端。'],
+['国際・社会','ASEAN','ASEAN事務局の所在地は。','ジャカルタ',['バンコク','シンガポール','マニラ'],'東南アジア諸国連合。'],
+['国際・社会','FTA','特定国間で関税などを撤廃する協定は。','FTA',['IMF','ODA','PKO'],'自由貿易協定。'],
+['国際・社会','IMF','為替の安定と国際収支の調整を目的とする機関は。','IMF',['世界銀行','WTO','OECD'],'世界銀行は開発・復興融資。'],
+['国際・社会','変動相場制','日本が変動相場制に移行した年は。','1973年',['1949年','1985年','1995年'],'ブレトン・ウッズ体制の崩壊後。'],
+['国際・社会','プラザ合意','1985年のプラザ合意の内容は。','ドル高是正の協調介入',['円安誘導の禁止','金とドルの交換再開','関税の全廃'],'その後に円高が進んだ。'],
+['国際・社会','リーマン','2008年の世界金融危機の引き金になったのは。','リーマン・ブラザーズの破綻',['アジア通貨危機','ニクソン・ショック','石油危機'],'米国のサブプライム問題が背景。'],
+['国際・社会','南北問題','先進国と途上国の格差問題を何というか。','南北問題',['南南問題','東西問題','中東問題'],'途上国間の格差が南南問題。'],
+['国際・社会','ODA','先進国が途上国に行う公的援助の略称は。','ODA',['NGO','NPO','OECD'],'政府開発援助。'],
+['国際・社会','SDGs','SDGsの達成目標年は。','2030年',['2020年','2040年','2050年'],'2015年に国連で採択された。'],
+['国際・社会','京都議定書','先進国に温室効果ガスの削減目標を課したのは。','京都議定書',['パリ協定','モントリオール議定書','ラムサール条約'],'1997年採択。パリ協定は2015年。'],
+['国際・社会','合計特殊出生率','合計特殊出生率の定義は。','一人の女性が生涯に産む子どもの数の平均',['年間の出生数','出生数と死亡数の差','初婚年齢の平均'],'人口維持の目安は約2.1とされる。'],
+['国際・社会','介護保険','介護保険の加入が始まる年齢は。','40歳',['20歳','30歳','50歳'],'2000年に開始。'],
+['国際・社会','国民年金','国民年金の加入対象は。','20歳以上60歳未満の全国民',['18歳以上の国民','65歳以上の高齢者','会社員のみ'],'基礎年金とも呼ぶ。'],
+['国際・社会','公的扶助','生活保護が属する社会保障の分野は。','公的扶助',['社会保険','社会福祉','公衆衛生'],'財源は税金。'],
+['国際・社会','同一労働同一賃金','同一労働同一賃金が是正を目指す対象は。','正規・非正規の待遇格差',['男女の賃金差のみ','外国人の賃金','最低賃金制度'],'働き方改革の柱の一つ。'],
+['国際・社会','フードマイレージ','食料の輸送量と距離で環境負荷を示す指標は。','フードマイレージ',['バーチャルウォーター','エンゲル係数','トレーサビリティ'],'輸入食料が多いと値が大きい。']
+];
+const UN=['民主政治の思想と原理','人権保障の発展','日本国憲法／各国の政治制度','基本的人権の尊重','平和主義','日本の政治機構','地方自治','政治の諸問題','国際政治(1)','国際政治(2)','資本主義と社会主義／経済学説','経済主体と株式会社','市場機構・独占禁止法','国民所得と経済成長','通貨と金融','財政','戦後の日本経済','日本経済の諸問題','労働問題','社会保障','国際経済','環境・人口・資源エネルギー問題'];
+const U=[6,6,6,3,6,8,4,1,6,13,13,13,15,16,14,15,16,21,21,21,9,21,20,19,18,
+3,5,6,3,4,4,8,6,7,7,7,6,6,6,4,4,8,8,4,6,6,6,6,6,6,
+13,13,13,13,13,13,13,13,12,12,14,14,14,14,15,16,16,16,16,15,15,15,15,13,18,
+9,9,9,9,10,2,2,21,21,21,21,21,21,21,21,21,21,22,22,22,20,20,20,19,22,
+11,11,11,17,17,17,17,1,1,5,5,10,
+1,1,2,2,3,3,3,4,4,4,4,5,5,6,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,18,19,19,20,20,21,21,21,22,22,
+1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13,14,14,15,15,16,16,17,17,18,18,19,19,20,20,21,21,22,22];
+const RAW3=[
+['経済','スミスの見えざる手','『国富論』で「見えざる手」による市場の調整を説いたのは。','アダム＝スミス',['ケインズ','マルクス','リカード'],'古典派経済学の祖。ケインズは有効需要、マルクスは『資本論』だ。'],
+['経済','有効需要','不況時に政府が有効需要を作り出すべきだと説いた経済学者は。','ケインズ',['フリードマン','マルサス','シュンペーター'],'フリードマンは通貨量を重視するマネタリズム。'],
+['経済','ニューディール','世界恐慌後、米国で政府が積極的に介入した政策は。','ニューディール政策',['傾斜生産方式','マーシャル・プラン','レーガノミクス'],'F.ローズヴェルト大統領が実施した。修正資本主義の例だ。'],
+['経済','傾斜生産方式','戦後復興期に石炭・鉄鋼へ資源を集中させた政策は。','傾斜生産方式',['所得倍増計画','日本列島改造論','護送船団方式'],'1940年代後半の復興政策だ。'],
+['経済','第一次石油危機','第一次石油危機が起きた年は。','1973年',['1964年','1979年','1985年'],'高度経済成長が終わり、翌年に戦後初のマイナス成長となった。'],
+['経済','経済民主化','戦後の経済民主化政策に含まれるものは。','財閥解体',['所得倍増計画','プラザ合意','国鉄分割民営化'],'GHQの指令で、財閥解体・農地改革などが行われた。'],
+['経済','バブル景気','1980年代後半のバブル期の背景にあった金融政策は。','低金利政策',['金融引き締め','公共投資の削減','関税の引き上げ'],'プラザ合意後の円高不況対策で低金利が続いた。'],
+['政治','ロックの抵抗権','『統治二論』で抵抗権を説いたのは。','ロック',['ホッブズ','ルソー','モンテスキュー'],'ホッブズは『リヴァイアサン』、ルソーは『社会契約論』だ。'],
+['政治','権利章典','1689年に英国で国王の権限を制限した文書は。','権利章典',['フランス人権宣言','ワイマール憲法','独立宣言'],'名誉革命後に出された。'],
+['政治','非核三原則','非核三原則として正しいものは。','持たず・作らず・持ち込ませず',['持たず・作らず・使わず','持たず・売らず・持ち込ませず','作らず・使わず・輸出せず'],'「使わず」は含まれない。'],
+['政治','自衛隊の指揮監督','自衛隊の最高指揮監督権をもつのは。','内閣総理大臣',['防衛大臣','天皇','国会議長'],'文民統制の仕組みの一つだ。'],
+['政治','マルタ会談','1989年に冷戦の終結を宣言した米ソ首脳会談は。','マルタ会談',['ヤルタ会談','ポツダム会談','キューバ危機'],'ヤルタ・ポツダムは第二次世界大戦末期の会談だ。']
+];
+const RAW4=[
+['法の支配','「国王といえども神と法の下にある」という言葉が表す原理は。','法の支配',['法治主義','権力分立','国民主権'],'権力者も法に拘束されるという原則。法治主義は形式的に法律に基づいて行政を行う考え方で、別物だ。'],
+['立憲主義','憲法で国家権力を制限し、人権を守る考え方は。','立憲主義',['国民主権','平和主義','民主集中制'],'近代憲法の根本にある考え方だ。'],
+['ワイマール憲法','1919年に世界で初めて社会権を規定した憲法は。','ワイマール憲法',['権利章典','アメリカ独立宣言','フランス人権宣言'],'ドイツの憲法で、生存権的な社会権を明記した。'],
+['世界人権宣言','1948年に国連総会が採択した、人権の共通基準を示す宣言は。','世界人権宣言',['国際人権規約','ジュネーブ条約','バージニア権利章典'],'法的拘束力はない。条約化したのが1966年の国際人権規約だ。'],
+['三大原則','日本国憲法の三大原則に含まれないものはどれか。','三権分立',['国民主権','基本的人権の尊重','平和主義'],'三権分立は統治の仕組みで、三大原則とは別に扱う。'],
+['憲法改正の発議','憲法改正の発議に必要な賛成は。','各議院の総議員の3分の2以上',['出席議員の過半数','衆議院の3分の2以上のみ','各議院の過半数'],'分母は出席議員ではなく総議員。衆参は対等だ。'],
+['アメリカ大統領制','アメリカの大統領について正しいものは。','議会の解散権を持たない',['議会に対して連帯責任を負う','議会の信任で選ばれる','法案を提出する権限をもつ'],'厳格な三権分立で、大統領は議会に法案を提出できず、教書で要請するだけだ。'],
+['表現の自由','集会・結社・表現の自由を保障する憲法の条文は。','21条',['20条','22条','23条'],'20条は信教、22条は居住・移転・職業選択、23条は学問の自由。'],
+['違憲判決','最高裁が法律の規定を違憲と判断した例は。','尊属殺人の重罰規定',['砂川事件の日米安保条約','三菱樹脂事件の採用拒否','津地鎮祭訴訟の起工式'],'尊属殺重罰規定は1973年に違憲とされた。安保条約は統治行為論で判断を避けた。'],
+['プライバシー権','『宴のあと』事件で認められた新しい人権は。','プライバシーの権利',['環境権','知る権利','自己決定権'],'小説のモデルとなった人物が訴えた。東京地裁が認めた。'],
+['労働基本権','団結権・団体交渉権・団体行動権を保障する条文は。','28条',['25条','26条','27条'],'27条は勤労の権利と義務、25条は生存権、26条は教育を受ける権利。'],
+['PKO協力法','自衛隊の国連PKOへの参加を可能にした1992年の法律は。','PKO協力法',['テロ対策特措法','周辺事態法','国家総動員法'],'カンボジアPKOなどに派遣された。'],
+['日米安保条約','日米安全保障条約が最初に結ばれた年は。','1951年',['1946年','1960年','1972年'],'サンフランシスコ平和条約と同日。1960年に改定された。'],
+['内閣の権限','内閣の権限に含まれないものはどれか。','法律の制定',['条約の締結','予算案の作成','政令の制定'],'法律の制定は、国の唯一の立法機関である国会の権限だ。'],
+['国民審査','最高裁判所裁判官の国民審査が行われる時期は。','任命後初の衆議院総選挙時と、その後10年経過後の総選挙時',['毎年の国会召集時','参議院議員選挙のとき','5年ごと'],'憲法79条。罷免すべきかを国民が審査する。'],
+['条約の締結','条約を締結するのはどこか。','内閣',['国会','天皇','最高裁判所'],'国会は承認する立場。承認は事前、時宜によっては事後でもよい。'],
+['二元代表制','地方自治体の首長と議会の関係として正しいものは。','互いに牽制し合う二元代表制',['議院内閣制をとる','議会が首長を任命する','首長は議会に拘束されない'],'首長と議員は住民が別々に直接選ぶ。不信任議決と議会解散で対抗できる。'],
+['三割自治','自主財源が少ない自治体の状況を指す言葉は。','三割自治',['地方分権','平成の大合併','地方創生'],'地方税の割合が低く、国からの交付に依存している。'],
+['小選挙区制','小選挙区制の特徴として正しいものは。','死票が多くなりやすい',['少数政党が有利','小党分立になりやすい','民意が正確に反映される'],'大政党に有利で二大政党化しやすい。民意の反映は比例代表制が優れる。'],
+['ロビイング','利益団体が政府や議員に働きかけることは。','ロビイング',['マニフェスト','レファレンダム','ポピュリズム'],'圧力団体の活動の一つだ。'],
+['安保理の強制措置','武力行使を含む強制措置を決定できる国連の機関は。','安全保障理事会',['総会','国際司法裁判所','経済社会理事会'],'総会の決議は勧告にとどまる。'],
+['NATO','1949年に西側諸国が結成した軍事同盟は。','NATO',['ワルシャワ条約機構','SEATO','OECD'],'ワルシャワ条約機構は1955年の東側の軍事同盟だ。'],
+['部分的核実験禁止','1963年の部分的核実験禁止条約が禁止の対象としなかったものは。','地下核実験',['大気圏内の核実験','宇宙空間の核実験','水中の核実験'],'名前のとおり、禁止は部分的で地下は対象外だった。'],
+['キューバ危機','1962年に米ソの核戦争の危機となった出来事は。','キューバ危機',['ベルリン封鎖','朝鮮戦争','ベトナム戦争'],'ソ連のミサイル配備をめぐり、米国が海上封鎖を行った。'],
+['マルクス','『資本論』を著し、資本主義の矛盾を分析したのは。','マルクス',['リスト','マルサス','シュンペーター'],'社会主義思想の理論的な柱になった。'],
+['新自由主義','「小さな政府」を主張し、規制緩和を重視する立場は。','新自由主義',['修正資本主義','社会民主主義','重商主義'],'フリードマンらの考えで、1980年代に広がった。'],
+['配当','株主が会社の利益から受け取る分配は。','配当（配当金）',['利子','地代','賃金'],'株価の値上がり益はキャピタルゲインという。'],
+['企業統治','企業を株主などが監視し、不祥事を防ぐ仕組みは。','コーポレート・ガバナンス',['メセナ','フィランソロピー','コンプライアンス'],'企業統治と訳される。コンプライアンスは法令遵守のことだ。'],
+['需要曲線のシフト','需要曲線が右にシフトしたときの均衡は。','均衡価格は上昇し、均衡取引量は増える',['価格は下落し、取引量は増える','価格は上昇し、取引量は減る','価格も取引量も変わらない'],'需要が増えれば、価格も取引量も上がる。'],
+['持株会社','他社の株式を保有して支配する会社で、1997年に解禁されたのは。','持株会社',['カルテル','ジョイントベンチャー','M&A'],'戦後は財閥復活を防ぐため禁止されていた。'],
+['三面等価','国内総生産が生産・分配・支出のどの面から見ても等しくなる原則は。','三面等価の原則',['需要供給の法則','有効需要の原理','比較優位の原理'],'国民経済計算の基本だ。'],
+['国内純生産','GDPから固定資本減耗を引いたものは。','NDP（国内純生産）',['GNI','NI','GNP'],'NIは、NNPから間接税を引き、補助金を足したものだ。'],
+['金融政策の目的','日本銀行の金融政策の目的の一つは。','物価の安定',['為替の固定','税率の決定','国債の発行'],'税率は国会が決め、国債は政府が発行する。'],
+['ペイオフ','金融機関が破綻したとき、預金保険で保護される預金は原則いくらまでか。','元本1000万円とその利息',['500万円','3000万円','全額'],'決済用預金は全額が保護される。'],
+['財政の機能','財政の機能に含まれないものはどれか。','貿易の自由化',['資源配分の調整','所得の再分配','経済の安定化'],'財政の三機能は、資源配分・所得再分配・経済安定化だ。'],
+['消費税の逆進性','消費税の特徴として正しいものは。','所得が低いほど負担率が重くなる',['累進課税である','直接税である','法人の所得にかかる'],'逆進性があるとされる。法人の所得にかかるのは法人税だ。'],
+['所得倍増計画','1960年に池田内閣が掲げた経済政策は。','所得倍増計画',['日本列島改造論','傾斜生産方式','構造改革'],'高度経済成長を後押しした。'],
+['ドッジ・ライン','1949年に単一為替レート（1ドル360円）などを導入した経済政策は。','ドッジ・ライン',['シャウプ勧告','マーシャル・プラン','プラザ合意'],'超均衡予算でインフレを抑えた。'],
+['食糧管理制度','1995年に廃止された、国が米を管理する制度は。','食糧管理制度（食管法）',['減反政策','農地改革','六次産業化'],'後に食糧法ができ、米の流通が自由化された。'],
+['二重構造','大企業と中小企業の間にみられる賃金や生産性の格差は。','二重構造',['雇用格差','産業の空洞化','少子化'],'中小企業は大企業の下請けとなりやすい。'],
+['クーリング・オフ','訪問販売などで、一定期間内なら無条件で契約を解除できる制度は。','クーリング・オフ',['PL法','インフォームド・コンセント','リコール'],'消費者を守る制度の一つだ。'],
+['日本的経営','日本的経営の三種の神器に含まれないものはどれか。','成果主義賃金',['終身雇用','年功序列型賃金','企業別労働組合'],'成果主義は近年広がった考え方で、三種の神器ではない。'],
+['男女雇用機会均等法','男女雇用機会均等法が成立した年は。','1985年',['1972年','1991年','1999年'],'女子差別撤廃条約の批准に合わせて制定された。'],
+['国民皆保険','日本で国民皆保険・皆年金が実現した年は。','1961年',['1947年','1973年','2000年'],'1973年は福祉元年、2000年は介護保険の開始だ。'],
+['社会保険の種類','日本の社会保険に含まれないものはどれか。','生活保護',['医療保険','年金保険','雇用保険'],'生活保護は公的扶助で、財源は税金だ。'],
+['貿易の原則','WTOが関税の面で特定の国だけを優遇せず、平等に扱う原則は。','最恵国待遇',['保護貿易','セーフガード','ブロック経済'],'セーフガードは、輸入急増時の緊急輸入制限だ。'],
+['貿易収支','貿易収支が黒字になるのはどのようなときか。','輸出額が輸入額を上回るとき',['輸入額が輸出額を上回るとき','海外への送金が多いとき','外貨準備が減るとき'],'貿易収支は輸出から輸入を引いたものだ。'],
+['円安','円安が進んだとき、一般に起こることは。','輸出企業の収益が増えやすい',['輸入品の円価格が下がる','海外旅行が割安になる','外貨建て債務の円換算額が減る'],'円高と逆の動きになる。'],
+['公害対策基本法','1967年に制定された公害対策の基本法は。','公害対策基本法',['環境基本法','大気汚染防止法','環境影響評価法'],'環境基本法は1993年、環境アセス法は1997年だ。'],
+['3R','3Rに含まれないものはどれか。','リカバリー',['リデュース','リユース','リサイクル'],'発生抑制・再使用・再生利用の三つだ。']
+];
+const RAW5=[
+['ルソーの思想','『社会契約論』で人民主権と一般意志を説いたのは。','ルソー',['ロック','ホッブズ','モンテスキュー'],'フランス革命に影響を与えた。直接民主制を理想とした。'],
+['ホッブズの思想','自然状態を「万人の万人に対する闘争」と考え、『リヴァイアサン』を著したのは。','ホッブズ',['ロック','ルソー','スミス'],'争いを避けるため、主権者に権利を譲る社会契約を説いた。'],
+['女子差別撤廃条約','1979年に国連で採択され、日本が1985年に批准した条約は。','女子差別撤廃条約',['児童の権利条約','人種差別撤廃条約','難民条約'],'日本の批准に合わせて、男女雇用機会均等法が制定された。'],
+['子どもの権利条約','18歳未満の子どもを、権利をもつ主体として保護する条約は。','児童（子ども）の権利条約',['女子差別撤廃条約','国際人権規約','障害者権利条約'],'1989年に国連で採択され、日本は1994年に批准した。'],
+['大日本帝国憲法','大日本帝国憲法の特徴として正しいものは。','天皇が主権をもち、国民の権利は法律の範囲内で認められた',['国民主権を明記した','国民の権利は永久不可侵とされた','内閣が議会に責任を負った'],'1889年に発布された欽定憲法だ。'],
+['憲法の施行','日本国憲法が施行された年月日は。','1947年5月3日',['1946年11月3日','1945年8月15日','1952年4月28日'],'1946年11月3日は公布の日だ。'],
+['薬事法違憲判決','薬局の開設に距離制限を設ける薬事法の規定について、最高裁判所は。','職業選択の自由を侵害し、違憲とした',['合憲とした','公共の福祉に当たるとして合憲とした','憲法判断を避けた'],'1975年の判決。経済的自由の規制が違憲とされた例だ。'],
+['知る権利','知る権利を具体化し、行政機関の文書の開示を請求できる制度を定めた法律は。','情報公開法',['個人情報保護法','特定秘密保護法','公文書管理法'],'1999年に制定された。国や自治体の情報を請求できる。'],
+['集団的自衛権','2014年の閣議決定で、政府が憲法解釈を変更して限定的に容認した権利は。','集団的自衛権',['交戦権','個別的自衛権','国連軍への参加'],'2015年の安全保障関連法につながった。'],
+['統治行為論','砂川事件の最高裁判決（1959年）で用いられた考え方は。','統治行為論',['目的効果基準','二重の基準','比例原則'],'高度に政治的な問題は、司法審査になじまないという考え方だ。'],
+['免責特権','国会議員が院内の演説・討論・表決について、院外で責任を問われない特権は。','免責特権',['不逮捕特権','歳費受領権','国政調査権'],'憲法51条。不逮捕特権は憲法50条だ。'],
+['全体の奉仕者','憲法15条が、公務員について定めている内容は。','全体の奉仕者であって、一部の奉仕者ではない',['内閣の私的な補佐役である','国会議員の部下である','国民の代表者である'],'公務員の選定と罷免は国民固有の権利でもある。'],
+['機関委任事務','2000年施行の地方分権一括法で廃止された、国の事務を首長に委任する仕組みは。','機関委任事務',['法定受託事務','自治事務','特別区'],'廃止後は、自治事務と法定受託事務に整理された。'],
+['国庫支出金','国が使途を指定して、地方公共団体に交付する資金は。','国庫支出金',['地方交付税','地方税','地方債'],'依存財源の一つ。地方交付税は使途が自由だ。'],
+['55年体制','1955年から1993年まで続いた、自民党が与党で社会党が野党第一党の政治体制は。','55年体制',['二大政党制','連立政権','小選挙区制'],'1993年の非自民連立政権の成立で終わった。'],
+['18歳選挙権','選挙権年齢が満18歳以上に引き下げられた改正公職選挙法が施行された年は。','2016年',['2000年','2010年','2020年'],'2015年に改正され、2016年に施行された。'],
+['グロティウス','「国際法の父」と呼ばれ、『戦争と平和の法』を著したのは。','グロティウス',['カント','ロック','ルソー'],'国家間にも守るべき法があると説いた。'],
+['国際連盟','国際連盟の特徴として正しいものは。','議決は原則全会一致で、アメリカは参加しなかった',['安全保障理事会が強制措置を決定できた','アメリカが原加盟国として参加した','多数決で迅速に決定できた'],'制裁は経済制裁が中心で、実効性に欠けた。'],
+['核兵器禁止条約','核兵器の開発・保有・使用などを全面的に禁止する、2017年に採択された条約は。','核兵器禁止条約',['核拡散防止条約','包括的核実験禁止条約','中距離核戦力全廃条約'],'核保有国は参加しておらず、日本も批准していない（最新の状況は要確認）。'],
+['INF全廃条約','1987年に米ソが結び、中距離核戦力を全廃した条約は。','INF全廃条約',['NPT','START','CTBT'],'STARTは戦略兵器の削減条約。INF全廃条約は2019年に失効した。'],
+['計画経済','社会主義経済の特徴として正しいものは。','生産手段が公有され、国家の計画で生産が行われる',['生産手段が私有され、市場で調整される','企業間競争を原則とする','政府の介入を最小限にとどめる'],'ソ連は1991年に崩壊し、中国は市場経済を取り入れた。'],
+['マネタリズム','通貨供給量の調整を重視するマネタリズムを唱えたのは。','フリードマン',['ケインズ','マルクス','ガルブレイス'],'小さな政府や規制緩和を主張した。'],
+['株主総会','株式会社の最高意思決定機関は。','株主総会',['取締役会','監査役会','経営陣会議'],'取締役の選任や配当の決定などを行う。'],
+['自己資本','企業の資金調達のうち、自己資本にあたるものは。','株式の発行',['社債の発行','銀行からの借入','コマーシャルペーパーの発行'],'社債や借入は返済が必要な他人資本だ。'],
+['自然独占','電力や水道のように、規模の経済が働いて一社独占になりやすい状態は。','自然独占',['寡占','カルテル','独占的競争'],'規模が大きいほど平均費用が下がる産業で起きる。'],
+['情報の非対称性','売り手と買い手の持つ情報量に差があり、市場がうまく働かなくなる問題は。','情報の非対称性',['外部不経済','規模の不経済','機会費用'],'中古車市場などが例だ。'],
+['付加価値の計算','農家が100万円の小麦を生産し、製粉業者が150万円で粉を、パン屋が220万円でパンを販売した。3者の付加価値の合計は。','220万円',['470万円','150万円','320万円'],'100＋(150−100)＋(220−150)＝220万円。最終生産物の価額と等しい。'],
+['ストックとフロー','国富（国全体の資産の残高）に当てはまる概念は。','ストック',['フロー','付加価値','国民所得'],'GDPなど一定期間の流れはフローだ。'],
+['直接金融','企業が株式や社債を発行して、投資家から直接資金を調達する方法は。','直接金融',['間接金融','信用創造','為替介入'],'銀行を介する借入は間接金融だ。'],
+['管理通貨制度','金の保有量に縛られず、中央銀行が通貨量を管理する制度は。','管理通貨制度',['金本位制','固定相場制','変動相場制'],'現在の日本はこの制度だ。'],
+['補正予算','年度の途中で、予算の追加や変更が必要になったときに編成されるのは。','補正予算',['暫定予算','特別会計','本予算'],'暫定予算は、本予算の成立が遅れたときのつなぎの予算だ。'],
+['日銀引き受けの禁止','財政法が原則として禁じている、日本銀行の国債に関する行為は。','国債の引き受け（新規発行分の直接取得）',['国債の買いオペレーション','国債の売りオペレーション','国債の償還'],'財政規律を守るための規定。市場から買うオペは認められる。'],
+['朝鮮特需','1950年に起こった朝鮮戦争で、日本経済に生じた景気の押し上げ要因は。','特需（米軍の物資調達）',['プラザ合意','石油危機','所得倍増計画'],'戦後復興が加速した。'],
+['三本の矢','アベノミクスの「三本の矢」に含まれないものは。','消費税率の引き下げ',['大胆な金融政策','機動的な財政政策','民間投資を喚起する成長戦略'],'消費税率は、その後に引き上げられた。'],
+['産業の空洞化','企業が生産拠点を海外に移し、国内の産業が衰える現象は。','産業の空洞化',['産業の二重構造','規模の経済','ペイオフ'],'円高の進行などを背景に進んだ。'],
+['消費者契約法','事業者の不当な勧誘で結んだ契約を、取り消せることを定めた法律は。','消費者契約法',['製造物責任法','独占禁止法','景品表示法'],'2000年に制定された。製造物責任法は欠陥製品の賠償責任を定める。'],
+['労働基準法','労働基準法が定める法定労働時間は。','1日8時間、週40時間',['1日10時間、週50時間','1日8時間、週48時間','1日7時間、週35時間'],'労働条件の最低基準を定めている。'],
+['不当労働行為','使用者が正当な理由なく団体交渉を拒否するような行為を、何というか。','不当労働行為',['ロックアウト','ストライキ','サボタージュ'],'労働組合法が禁止している。'],
+['公衆衛生','社会保障の4つの柱のうち、感染症対策や上下水道の整備を行うものは。','公衆衛生',['社会保険','公的扶助','社会福祉'],'社会福祉は、高齢者・障害者・児童などへの援護だ。'],
+['厚生年金','日本の公的年金で、会社員が基礎年金に上乗せして加入する年金は。','厚生年金',['国民年金基金','企業年金のみ','恩給'],'基礎年金と厚生年金による、いわゆる二階建ての構造だ。'],
+['ブレトン・ウッズ体制','1944年に成立した、IMFと世界銀行を柱とし、ドルを基軸とする固定相場制は。','ブレトン・ウッズ体制',['プラザ合意','スミソニアン合意','マーストリヒト条約'],'1971年のニクソン・ショックで動揺し、後に崩壊した。'],
+['GATTの三原則','GATTの基本原則は。','自由・無差別・多角',['保護・差別・二国間','平等・公正・互恵','自由・平等・博愛'],'WTOはGATTを引き継いだ。'],
+['パリ協定','すべての国が温室効果ガスの削減目標を自主的に定める、2015年採択の枠組みは。','パリ協定',['京都議定書','モントリオール議定書','バーゼル条約'],'京都議定書は先進国のみが削減義務を負った。'],
+['高齢化率','総人口に占める65歳以上の割合が14％を超えた社会を何というか。','高齢社会',['高齢化社会','超高齢社会','少子社会'],'7％超は高齢化社会、14％超は高齢社会、21％超は超高齢社会と呼ぶ。']
+];
+const Q=[...RAW.map(([c,q,a,w,e],k)=>({c,n:N1[k],q,a,o:[a,...w],e})),...RAW2.map(([c,n,q,a,w,e])=>({c,n,q,a,o:[a,...w],e})),...RAW3.map(([c,n,q,a,w,e])=>({c,n,q,a,o:[a,...w],e})),...RAW4.map(([n,q,a,w,e])=>({c:'',n,q,a,o:[a,...w],e})),...RAW5.map(([n,q,a,w,e])=>({c:'',n,q,a,o:[a,...w],e}))].map((q,id)=>({...q,id,u:U[id],c:U[id]<=10?'政治':'経済'}));
+const OK=['正解だ。当然だな。','悪くない。その調子で進め。','正解。まぐれでないことを次で証明しろ。'];
+const NG=['不正解。ここを落とす奴は本番でも落とす。','ただの知識不足だ。解説を読め。','間違えた。恥じる暇があるなら覚えろ。'];
+const $=s=>document.querySelector(s);
+const pick1=a=>a[Math.floor(Math.random()*a.length)];
+const shuffle=a=>{a=a.slice();for(let k=a.length-1;k>0;k--){const j=Math.floor(Math.random()*(k+1));[a[k],a[j]]=[a[j],a[k]]}return a};
+let sel=new Set(UN.map((_,i)=>i+1)),deck=[],i=0,combo=0,log=[],locked=false,missed=[];
+let notice='',tab='curve';
+const TABS=[['curve','忘却曲線'],['play','出題'],['zk','図鑑'],['kt','共テ形式'],['rk','順位']];
+function nav(on){const n=$('#tabs');n.style.display=on?'flex':'none';if(on)n.innerHTML=TABS.map(([k,t])=>`<button class="${tab===k?'on':''}" onclick="go('${k}')">${t}</button>`).join('')}
+function go(k){tab=k;window.scrollTo(0,0);k==='zk'?zukan():k==='kt'?kt():k==='rk'?rank():home()}
+function home(){
+ if(tab==='zk'||tab==='kt'||tab==='rk')tab='curve';
+ nav(true);
+ const nt=notice;notice='';
+ const nw=nt?`<div class="weak">${nt}</div>`:'';
+ if(tab==='curve'){
+  $('#app').innerHTML=`<h1 class="ttl">忘却曲線</h1>${nw}
+  <section class="card"><h2 class="cs" id="cs"></h2><div id="sv"></div>
+  <input type="range" min="0" max="4" step="0.01" value="${ah}" oninput="ah=+this.value;mv()" onchange="draw()" aria-label="何日後を見るか">
+  <p class="sub" id="sl" style="margin:0"></p></section>
+  <section class="card"><p class="lab">定着度の帯</p><div class="bands" id="bn"></div><div id="bl"></div><p id="tip"></p></section>
+  <div id="cd"></div><div id="un"></div>`;
+  draw();return;
+ }
+ const lk=Object.keys(M).filter(id=>isLk(+id)),lkm=lk.length?Math.min(...lk.map(id=>lkLeft(+id))):0;
+ const av=Q.filter(q=>sel.has(q.u)&&!isLk(q.id)).length;
+ const grp=(g,lo,hi,cl)=>`<section class="card"><div class="gh"><p class="lab" style="color:${cl};margin:0">${g}分野</p><button class="mini" onclick="tgg(${lo},${hi})">全選択／全解除</button></div><div class="chips">${UN.slice(lo-1,hi).map((x,k)=>{const u=lo+k,n=Q.filter(q=>q.u===u).length;return `<button class="chip ${sel.has(u)?'on':''}" style="--cc:${cl}" onclick="tg(${u})">${u} ${x}<small> ${n}</small></button>`}).join('')}</div></section>`;
+ $('#app').innerHTML=`<h1 class="ttl">出題</h1>${nw}
+ <section class="card"><div class="big">${av}<small>問から出題</small></div>
+ <p class="sub">${sel.size}単元を選択中${lk.length?`　🔒ロック中${lk.length}問（最短あと${lkm}分）`:''}</p>
+ <button class="go" onclick="start()">10問はじめる</button>
+ ${missed.length?`<button class="ghost" style="margin:0" onclick="start(true)">前回の間違い${missed.length}問を解く</button>`:''}</section>
+ <section class="card" id="ac">${acIn()}</section>
+ ${grp('政治',1,10,'var(--g1)')}${grp('経済',11,22,'var(--g2)')}
+ <button class="chip" disabled style="margin-bottom:14px">23 時事問題<small> 未収録</small></button>`;
+}
+function tg(u){sel.has(u)?(sel.size>1&&sel.delete(u)):sel.add(u);home()}
+function tgg(lo,hi){const us=[];for(let u=lo;u<=hi;u++)us.push(u);const all=us.every(u=>sel.has(u));if(all){us.forEach(u=>sel.delete(u));if(!sel.size)us.forEach(u=>sel.add(u))}else us.forEach(u=>sel.add(u));home()}
+function start(rev){
+ tab='play';
+ const pool=rev==='due'?Q.filter(q=>M[q.id]&&ret(q.id)<.75):rev?missed:Q.filter(q=>sel.has(q.u));
+ const av=pool.filter(q=>!isLk(q.id));
+ if(!av.length){const mm=Math.min(...pool.map(q=>lkLeft(q.id)));notice=pool.length?'対象の問題はすべてロック中だ。最短あと'+mm+'分で解除される。':'対象の問題がない。';home();return}
+ deck=shuffle(av).sort((a,b)=>((S[a.id]||{n:0}).n)-((S[b.id]||{n:0}).n)).slice(0,10).map(q=>({...q,opts:shuffle(q.o)}));
+ i=0;combo=0;log=[];locked=false;quiz();
+}
+function quiz(){
+ nav(false);
+ const d=deck[i];
+ $('#app').innerHTML=`<button class="mini" style="margin-bottom:12px" onclick="home()">← やめる</button><div class="gauge" id="g">${deck.map((_,k)=>`<i class="t ${k===i?'cur':''}"></i>`).join('')}</div>
+ <div class="meta"><span><i class="dot" style="background:${COL[d.c]}"></i>${d.u} ${UN[d.u-1]}　${i+1}/${deck.length}　既出${(S[d.id]||{n:0}).n}回</span><b id="cb">${'★'.repeat(+D[d.id])}${combo>1?'　'+combo+'連続':''}</b></div>
+ <h2 class="q">${d.q}</h2>
+ <div class="opts">${d.opts.map((o,k)=>`<button class="opt" onclick="pk(${k})">${o}</button>`).join('')}</div>
+ <div id="fb"></div>`;
+ window.scrollTo(0,0);
+}
+let ck=-1;
+function pk(k){
+ if(locked)return;ck=k;
+ document.querySelectorAll('.opt').forEach((b,n)=>b.classList.toggle('pk',n===k));
+ $('#fb').innerHTML=`<div class="fb"><p class="v">どれくらい自信がある？</p><div class="cf">${CF.map((t,c)=>`<button onclick="ans(${c})">${t}</button>`).join('')}</div></div>`;
+ $('#fb').scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+function ans(c){
+ if(locked||ck<0)return;locked=true;
+ const k=ck,d=deck[i],ok=d.opts[k]===d.a;
+ log.push({c:d.c,ok,d,cf:c});rec(d.id,ok,c);
+ const st=S[d.id]||{n:0,c:0};st.n++;if(ok)st.c++;S[d.id]=st;try{localStorage.setItem('seikeiS',JSON.stringify(S))}catch(e){}dirty();
+ combo=ok?combo+1:0;
+ const rs=WR[d.id].split('|');
+ document.querySelectorAll('.opt').forEach((b,n)=>{b.classList.remove('pk');const o=d.opts[n];if(o===d.a)b.classList.add('ok');else{b.classList.add(n===k?'ng':'dim');b.insertAdjacentHTML('beforeend',`<small>✕ ${rs[d.o.indexOf(o)-1]||''}</small>`)}});
+ $('#g').children[i].className='t '+(ok?'ok':'ng');
+ let v=ok?(combo>=3?combo+'連続。調子に乗るな、まだ序の口だ。':pick1(OK)):pick1(NG);
+ if(ok&&c===0)v='勘で当たっただけだ。身についていない。';
+ if(!ok&&c===2)v='切腹だ。確実と言い切って間違いとは、一番危ない穴だ。';
+ const last=i===deck.length-1;
+ $('#fb').innerHTML=`<div class="fb ${ok?'ok':'ng'}"><p class="v">${v}</p><p><b>【${d.n}】</b>${ok?'':'正解は「'+d.a+'」。'}<br>${d.e}</p><p class="sub" style="margin:0 0 12px;font-size:13px">自信：${CF[c]}　難易度${'★'.repeat(+D[d.id])+'☆'.repeat(3-D[d.id])}（目安）<br>この問題の記録：${st.n}回出題・${st.c}回正解</p><button class="nx" onclick="nx()">${last?'結果を見る':'次の問題'}</button></div>`;
+ $('#fb').scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+function nx(){i++;locked=false;i>=deck.length?result():quiz()}
+function result(){
+ nav(false);
+ const n=log.filter(l=>l.ok).length,tot=log.length;
+ missed=log.filter(l=>!l.ok).map(l=>Q.find(q=>q.q===l.d.q));
+ const st={};log.forEach(l=>{const kk=l.d.u+' '+UN[l.d.u-1];st[kk]=st[kk]||[0,0];st[kk][1]++;if(l.ok)st[kk][0]++});
+ const r=n/tot;
+ const rank=r===1?'満点だ。阪大歯、射程圏内に入った。':r>=.8?'まずまずだ。落とした分を潰せば仕上がる。':r>=.6?'中途半端だ。このままでは取りこぼす。':'話にならん。解説を読み込んで、もう一周しろ。';
+ const worst=Object.entries(st).filter(([,v])=>v[0]<v[1]).sort((a,b)=>a[1][0]/a[1][1]-b[1][0]/b[1][1])[0];
+ $('#app').innerHTML=`<h1 class="ttl">結果</h1>
+ <div class="big">${n}<small>/${tot}</small></div>
+ <p class="rank">${rank}</p>
+ <div class="bars">${Object.entries(st).map(([c,v])=>`<div class="bar"><div class="r"><span>${c}</span><span>${v[0]}/${v[1]}</span></div><div class="tr"><div class="fl" style="width:${v[0]/v[1]*100}%"></div></div></div>`).join('')}</div>
+ ${worst?`<div class="weak">弱点は「${worst[0]}」。ここから先に潰せ。</div>`:''}
+ <button class="go" onclick="start()">もう一セット</button>
+ ${missed.length?`<button class="ghost" onclick="start(true)">間違い${missed.length}問を解き直す（10分後から）</button>`:''}
+ <button class="ghost" onclick="curve()">忘却曲線を見る</button><button class="ghost" onclick="home()">範囲を選び直す</button>`;
+ window.scrollTo(0,0);
+}
+const HR=6e5,COL={'政治':'var(--g1)','経済':'var(--g2)'};
+const BANDS=[{lo:.75,hi:1.01,t:'75〜100%',c:'var(--ok)'},{lo:.5,hi:.75,t:'50〜75%',c:'var(--acc)'},{lo:.25,hi:.5,t:'25〜50%',c:'#e08a00'},{lo:0,hi:.25,t:'0〜25%',c:'var(--ng)'}];
+let M={},ah=0,bd=null,hl=null;try{M=JSON.parse(localStorage.getItem('seikeiM')||'{}')}catch(e){}
+const hrs=m=>Math.floor((Date.now()-m.t)/HR)/144;
+const Rt=(m,a=0)=>(m.r==null?1:m.r)*Math.exp(-(hrs(m)+a)/m.s);
+const CF=['勘','たぶん','これ間違えてたら切腹'];
+const D='12221211222122221223112222232232233211122123222233211211111121321322322213212122321131122211122122231122222231232121123232222232322222311212232312121332122213112122211232232232212223121222321213121223122222';
+const WR=['任命は形式的な国事行為|司法の長で指名権はない|議長は国会運営役で指名しない',
+'予算は衆院が優越|条約承認も衆院が優越|首相指名も衆院が優越',
+'参院は関与しない|解散という道もある|司法は関与しない',
+'分母が違う|割合が違う|分母も割合も違う',
+'内閣の法律顧問で判断権なし|立法機関で審査される側|国会内の機関で判断権なし',
+'選挙区制度で配分方式ではない|比例方式の一つだが日本では不採用|順位点で集計する方式',
+'26条の社会権|参政権は別の権利|財産権は自由権',
+'抵抗権・二権分立|人民主権・一般意志|絶対王政を正当化',
+'150日より短い|150日より短い|150日より長い',
+'左は下級財の動き|価格変化のときの動き|所得は需要に影響する',
+'競争市場で決まる価格|政府が認可する価格|取引価格の総称',
+'消費者行政の担当|産業政策の担当|金融政策の担当',
+'資金を供給する操作|財政政策で日銀の操作ではない|引き下げは景気刺激',
+'裁量的な財政政策|金融政策|裁量的な財政政策',
+'ストックで国富に近い|中間生産物を二重に数える|財政の規模',
+'価値が目減りして不利|実質受取額が減る|返済の価値が下がり不利',
+'直接税|直接税|直接税',
+'見えざる手・分業|人口論|有効需要',
+'輸出品が割高で不利|円換算では減る|日本が割高になり不利',
+'別の収支項目|別の収支項目|金融収支に含まれる',
+'少なすぎる|非常任の10か国は拒否権なし|理事国の総数',
+'通貨と国際収支の機関|先進国の経済協力機構|貿易と開発の会議',
+'自分の保険料を積み立てる方式|民間のみで運営する方式|財源は保険料が中心',
+'労働三法の一つ|労働三法の一つ|労働三法の一つ',
+'水俣病の原因|イタイイタイ病の原因|四日市の被害は大気汚染',
+'承認するのは内閣|司法は関与しない|内閣全体で助言・承認',
+'9条に規定がなく解釈の問題|66条の定め|政策方針で条文ではない',
+'過半数でよい|参院議員も可|官僚出身の要件はない',
+'国会が指名する|内閣は衆院を解散できる|大統領制の特徴',
+'憲法に出てこない語|憲法に出てこない語|憲法に出てこない語',
+'平和主義の条文|表現の自由の条文|改正手続の条文',
+'選挙権の年齢|旧選挙権年齢|参院議員・知事の年齢',
+'衆院の任期と解散|参院は半数改選|任期が違う',
+'ブライスの言葉ではない|ブライスの言葉ではない|ブライスの言葉ではない',
+'解職・解散請求の数字|割合が違う|割合が違う',
+'使途が特定される補助金|借金で自前財源でない|自治体が課す税',
+'対象外|重大事件に限る|対象外',
+'第三審への不服申立て|決定への不服申立て|確定判決のやり直し',
+'第二審を求める手続き|第三審を求める手続き|刑の免除で判決は残る',
+'有罪確定まで無罪とみなす原則|平等の原則|同一の罪を重ねて問わない原則',
+'令状を出すのは裁判官|行政内部の文書|被疑者側の同意は不要',
+'現行制度ではない|小選挙区も併用している|1994年改革前の制度',
+'選挙の価値の平等と無関係|選挙の価値の平等と無関係|選挙の価値の平等と無関係',
+'20条・89条に反するとした|最高裁は判断した|判決が出ている',
+'国会の権限|内閣にその権限はない|国民審査や弾劾による',
+'裁判官は審理しない|行政は判断できない|行政機関に権限なし',
+'裁判官に関する権限|衆院の権限|議員が内閣に質問する文書',
+'採決の場で実質審議は委員会|国会の外の機関|国会の外の協議',
+'内閣が開く別の国会|総選挙後に開く|毎年1回の通常国会',
+'毎年1月の国会|臨時の必要で召集|解散中のみ',
+'贅沢品の特徴|極端すぎる|極端すぎる',
+'供給が増える動き|費用が変われば動く|形は変わらない',
+'超過供給のとき|調整が働く|市場価格は動く',
+'失敗の例|失敗の例|失敗の例',
+'生産拡大で費用低下|選ばなかった最大の利益|追加1単位の満足',
+'競合性・排除性がある|所得で需要が増える財|贅沢品',
+'回収不能な費用|追加1単位の費用|生産量に関わらない費用',
+'合併による統合|持株会社による支配|異業種の複合企業',
+'無限責任の説明|根拠がない|無限責任の説明',
+'自己資本利益率|政府開発援助|国内総生産',
+'国民所得の別指標|減価償却を引いた指標|福祉を測る別概念',
+'減価償却を引いたもの|要素所得の合計|完全雇用時の生産能力',
+'設備投資が主因|建設投資が主因|技術革新が主因',
+'物価下落と不況の悪循環|緩やかなインフレを目指す政策|インフレ率が低下する現象',
+'不況下の物価上昇|資産価格の過熱|国債発行で民間投資が減る',
+'同条件なら同負担|出発点の平等|手続きの平等',
+'特例法で発行|外貨建ての債券|自治体の債券',
+'国際収支の項目|国際収支の項目|国の投融資制度',
+'財政・金融政策の組合せ|資産価格が消費に与える影響|消費が下がりにくい習性',
+'準備率引き下げのとき|貸出余力は変わる|極端すぎる',
+'通貨売買で為替を調整|日銀の資金供給策|貸し手と借り手をつなぐ機能',
+'金利の操作|準備率の操作|貸出量の規制',
+'発券銀行の役割|政府の銀行の役割|銀行の銀行の役割',
+'原則禁止に反する|原則禁止に反する|原則禁止に反する',
+'契約の取消しを定める法|訪問販売などを規制|競争を守る法',
+'常任理事国に拒否権|選挙で選ばれる理事会|事務総長が率いる事務機関',
+'国連欧州本部|国連本部|国際機関が多い都市だが所在地でない',
+'PKOの部隊の一部|非政府組織|石油輸出国機構',
+'力の釣り合いで平和を保つ|同盟国への攻撃に反撃|紛争に関与しない立場',
+'大気圏内などの核実験を禁止|地雷の禁止|温暖化対策',
+'原則と逆|無関係|原則と逆',
+'特定の差別の撤廃条約|子どもに限定した条約|人種差別に限定した条約',
+'英国の通貨|導入前の通貨|導入前の通貨',
+'EUに残留|EUに残留|EU非加盟',
+'タイの首都|別の加盟国の都市|フィリピンの首都',
+'国際通貨基金|政府開発援助|平和維持活動',
+'開発・復興融資の機関|貿易ルールの機関|先進国の協力機構',
+'固定相場の時期|プラザ合意の年|WTO発足の年',
+'ドル安・円高誘導が実際|1971年に停止した|実施されていない',
+'1997年のタイ発|1971年の金ドル交換停止|1970年代の原油高',
+'途上国間の格差|冷戦期の東西対立|地域紛争',
+'民間の非政府組織|民間の非営利組織|先進国の協力機構',
+'早すぎる|先すぎる|温室効果ガス実質ゼロの目標年',
+'2015年採択で全ての国が対象|オゾン層保護|湿地の保全',
+'実数で率ではない|自然増減|別の指標',
+'国民年金の加入年齢|加入年齢ではない|加入年齢ではない',
+'下限は20歳|受給世代で加入対象ではない|全国民が対象',
+'保険料で備える制度|弱者への援護サービス|感染症対策など',
+'対象は雇用形態の差|対象が違う|別の制度',
+'輸入に使われる水の量|家計の食費割合|生産・流通履歴の追跡',
+'有効需要|資本論|比較生産費説',
+'通貨量重視|人口論|技術革新を重視',
+'日本の戦後政策|戦後欧州への援助|1980年代の米国政策',
+'1960年代の成長政策|1970年代の開発構想|金融の保護行政',
+'東京五輪の年|第二次石油危機の年|プラザ合意の年',
+'1960年代の成長政策|1985年の国際協調|1987年の行政改革',
+'低金利と逆の政策|景気を冷やす方向|内需拡大と逆',
+'『リヴァイアサン』|『社会契約論』|『法の精神』',
+'1789年|1919年|1776年',
+'使わずは含まない|売らずは含まない|別の組合せ',
+'指揮監督は首相の下|国事行為のみ|立法府の長',
+'1945年の戦後処理会談|1945年の戦後処理会談|1962年の米ソ対立',
+'形式的に法律で行政を行う考え方|権力を分ける原則|主権者を国民とする原則',
+'主権者についての原理|戦争放棄の原理|社会主義国の組織原則',
+'1689年の英国の文書|1776年の自然権の宣言|1789年の自由権中心の宣言',
+'1966年に宣言を条約化したもの|戦争犠牲者を守る条約|18世紀の米国の宣言',
+'三大原則の一つ|三大原則の一つ|三大原則の一つ',
+'通常の法律の議決要件に近い|参院も発議に関与する|通常より軽すぎる',
+'議院内閣制の特徴|選挙人を通じて国民が選ぶ|法案提出権はない（教書で勧告）',
+'信教の自由の条文|職業選択などの条文|学問の自由の条文',
+'統治行為論で判断を避けた|私人間に憲法は直接及ばないとした|合憲とした',
+'環境権の根拠となる権利|情報公開に結び付く権利|自分で決める権利',
+'生存権|教育を受ける権利|勤労の権利と義務',
+'2001年のテロ対応法|1999年の日米協力の法|戦前の戦時統制法',
+'戦後の憲法公布の年|新安保条約の年|沖縄返還の年',
+'内閣の職務（国会の承認が必要）|内閣の職務|内閣の職務',
+'選挙とは別に毎年は行わない|参院選では行わない|5年ではなく10年ごと',
+'承認するのは国会|批准書の認証は国事行為|司法は関与しない',
+'住民が首長を直接選ぶので議院内閣制ではない|首長も議員も住民が選ぶ|議決に拘束される',
+'国から地方への権限移譲|市町村の合併政策|地方活性化の政策',
+'大政党が有利|比例代表制の特徴|比例のほうが反映される',
+'政権公約のこと|住民・国民投票|大衆迎合的な政治',
+'勧告にとどまる|法的紛争を扱う|経済・社会分野の機関',
+'1955年の東側の同盟|1954年の東南アジアの同盟|経済協力の機構',
+'禁止された|禁止された|禁止された',
+'1948年の東西対立|1950年の戦争|1960年代以降の戦争',
+'保護貿易論|人口論|技術革新（創造的破壊）',
+'政府の介入を認める立場|福祉を重視する立場|国富を重視した貿易統制',
+'貸付資金の対価|土地利用の対価|労働の対価',
+'芸術文化の支援|慈善活動|法令遵守',
+'供給が増えたときの動き|供給が減ったときの動き|需要が変われば動く',
+'価格の協定|共同出資の事業|合併・買収',
+'価格の決まり方|不況時の理論|貿易の考え方',
+'海外所得を加えた指標|NNPから調整した指標|GNIの旧称',
+'日銀は為替を固定しない|税率は国会が決める|国債の発行は政府',
+'上限より少ない|上限より多い|決済用預金以外は全額ではない',
+'財政の機能|財政の機能|財政の機能',
+'比例税率で累進ではない|間接税である|法人税の説明',
+'田中内閣の開発構想|戦後復興の政策|小泉内閣の改革',
+'税制の勧告|欧州復興の援助|1985年のドル高是正',
+'生産調整政策|戦後の土地制度改革|農林水産業の高付加価値化',
+'正規・非正規の差|生産拠点の海外移転|別の問題',
+'製品の欠陥責任|医療の説明と同意|欠陥製品の回収',
+'三種の神器の一つ|三種の神器の一つ|三種の神器の一つ',
+'1972年の勤労婦人福祉法の年|1991年の育児休業法の年|1999年の男女共同参画社会基本法の年',
+'日本国憲法施行の頃|福祉元年の年|介護保険の開始年',
+'社会保険の一つ|社会保険の一つ|社会保険の一つ',
+'自国産業を守る立場|緊急時の輸入制限|域内を優遇し外を締め出す体制',
+'赤字のとき|別の項目|貿易収支と無関係',
+'円高のときの動き|円高のときの動き|円高のときの動き',
+'1993年制定|1968年制定の個別法|1997年制定',
+'3Rの一つ|3Rの一つ|3Rの一つ',
+'ロック＝抵抗権|ホッブズ＝『リヴァイアサン』|モンテスキュー＝三権分立',
+'ロック＝抵抗権|ルソー＝人民主権|スミス＝『国富論』',
+'子どもに限った条約|人種差別に限った条約|難民を保護する条約',
+'女性差別に関する条約|人権全般の条約|障害者に関する条約',
+'主権は天皇にあった|権利は法律の範囲内で制限された|内閣は天皇を補佐する機関だった',
+'公布の日|終戦の日|平和条約発効の日',
+'違憲と判断した|違憲と判断した|最高裁は判断した',
+'個人情報の取扱いを定める法|機密情報の保護を定める法|文書の保存・管理を定める法',
+'憲法9条2項は認めない|従来から認められていた|別の問題',
+'政教分離の判断基準|表現の自由などの判断基準|規制の程度を測る原則',
+'議員の逮捕に関する特権|報酬を受ける権利|証人喚問などの権限',
+'公務員は内閣の補佐役ではない|国会議員の部下ではない|代表者は選挙で選ばれた議員',
+'廃止後に設けられた区分|廃止後に設けられた区分|東京23区の呼称',
+'使途が自由な依存財源|自主財源|借入金',
+'55年体制の特徴ではない|55年体制の特徴ではない|選挙制度の話',
+'この年ではない|この年ではない|この年ではない',
+'『永遠平和のために』の著者|『統治二論』の著者|『社会契約論』の著者',
+'安保理は国連の機関|アメリカは参加しなかった|全会一致が原則',
+'1968年の核不拡散の条約|1996年の核実験全面禁止の条約|1987年の米ソの条約',
+'1968年の核不拡散の条約|戦略兵器の削減条約|核実験の全面禁止条約',
+'資本主義の特徴|資本主義の特徴|自由主義経済の特徴',
+'ケインズ＝有効需要|マルクス＝『資本論』|ガルブレイス＝『ゆたかな社会』',
+'業務執行を決める機関で最高機関ではない|取締役を監査する機関|公式な機関ではない',
+'返済が必要な他人資本|返済が必要な他人資本|返済が必要な他人資本',
+'少数の企業が支配する状態|価格を協定する行為|競争が残る市場形態',
+'取引外の第三者への不利益|費用が上がる現象|選ばなかった最大の利益',
+'売上高の単純合計で二重計上|製粉後の価額のみ|最終価額に小麦代を足した誤り',
+'一定期間の流れ|生産で生み出された価値|一定期間の所得',
+'銀行を介した調達|銀行が貸出で預金を増やす仕組み|通貨価値の調整',
+'金との交換を前提とする制度|為替相場の制度|為替相場の制度',
+'本予算成立前のつなぎ|特定目的の会計|年度当初の予算',
+'買いオペは認められる|売りオペは認められる|償還は禁止ではない',
+'1985年の国際協調|1970年代の原油高|1960年の成長政策',
+'一本目の矢|二本目の矢|三本目の矢',
+'大企業と中小企業の格差|生産量で費用が下がる現象|預金の保護制度',
+'欠陥製品の責任を定める法|競争を守る法|広告表示を規制する法',
+'基準を超える|週の基準を超える|基準より短い',
+'使用者が職場を閉鎖する行為|労働者が働くのをやめる行為|作業を意図的に怠る行為',
+'保険料で備える制度|税による最低生活の保障|高齢者・児童などへの援護',
+'自営業者などの上乗せ|公的年金ではない|過去の公務員の制度',
+'1985年のドル高是正|1971年の合意|欧州連合の条約',
+'保護的な考え方|別の言葉|フランス革命の標語',
+'先進国のみが削減義務を負った|オゾン層の保護|有害廃棄物の規制',
+'7％超の社会|21％超の社会|出生率の低い社会'];
+let S={};try{S=JSON.parse(localStorage.getItem('seikeiS')||'{}')}catch(e){}
+
+let G={};try{G=JSON.parse(localStorage.getItem('seikeiG')||'{}')}catch(e){}
+function rec(id,ok,c=1){
+ const m=M[id],r0=ok?[.3,.7,1][c]:.1;
+ M[id]={t:Date.now(),s:ok?(m?Math.min(m.s*2,120):1):.4,r:r0,c};
+ const g=G[c]||[0,0];g[1]++;if(ok)g[0]++;G[c]=g;
+ try{localStorage.setItem('seikeiM',JSON.stringify(M));localStorage.setItem('seikeiG',JSON.stringify(G))}catch(e){}}
+function ret(id,a=0){return Rt(M[id],a)}
+const LOCK=6e5;
+const isLk=id=>M[id]&&Date.now()-M[id].t<LOCK;
+const lkLeft=id=>Math.ceil((LOCK-(Date.now()-M[id].t))/6e4);
+function curve(){tab='curve';home();window.scrollTo(0,0)}
+function pb(k){bd=bd===k?null:k;draw()}
+function draw(){
+ const W=360,H=300,L=34,Rm=10,T=10,B=26,pw=W-L-Rm,ph=H-T-B,X=d=>L+(d+2)/6*pw,Y=r=>T+(1-r)*ph;
+ let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="各問題の忘却曲線上の位置">`;
+ if(bd!==null){const b=BANDS[bd],hi=Math.min(b.hi,1);s+=`<rect x="${L}" y="${Y(hi)}" width="${pw}" height="${(hi-b.lo)*ph}" fill="${b.c}" fill-opacity=".14"/>`}
+ [0,.25,.5,.75,1].forEach(r=>s+=`<line x1="${L}" x2="${W-Rm}" y1="${Y(r)}" y2="${Y(r)}" stroke="var(--line)"${r&&r<1?' stroke-dasharray="4 3"':''}/><text x="${L-5}" y="${Y(r)+4}" font-size="10" text-anchor="end" fill="var(--sub)">${r*100}%</text>`);
+ [-2,-1,0,1,2,3,4].forEach(d=>s+=`<text x="${X(d)}" y="${H-8}" font-size="10" text-anchor="middle" fill="var(--sub)">${d===0?'今日':d}</text>`);
+  let n=0,due=0,now=0,un=[],ps='',ds='';const cnt=[0,0,0,0],items=[];
+ Q.forEach(q=>{const m=M[q.id];if(!m){un.push(q.n);return}n++;const d=hrs(m)+ah,r=Rt(m,ah),k=BANDS.findIndex(b=>r>=b.lo&&r<b.hi);cnt[k]++;items.push({q,r,k});if(r<.75)due++;if(ret(q.id)<.75&&!isLk(q.id))now++;
+  const r0=m.r==null?1:m.r,e0=hrs(m),xs=Math.max(-2,-e0),op=hl!==null?(hl===q.id?1:.1):(bd!==null&&bd!==k?.1:.5),pt=x=>X(x).toFixed(1)+' '+Y(r0*Math.exp(-(e0+x)/m.s)).toFixed(1);
+  let p1='M'+pt(xs);for(let x=xs+.1;x<0;x+=.1)p1+='L'+pt(x);p1+='L'+pt(0);
+  let p2='M'+pt(0);for(let x=.1;x<=4.001;x+=.1)p2+='L'+pt(x);
+  ps+=`<path d="${p1}" fill="none" stroke="${COL[q.c]}" stroke-width="${hl===q.id?2.5:1.2}" stroke-opacity="${op}"/><path d="${p2}" fill="none" stroke="${COL[q.c]}" stroke-dasharray="3 3" stroke-opacity="${op*.6}"/>`;ds+=`<circle cx="${X(ah)}" cy="${Y(r)}" r="${hl===q.id?7:5}" fill="${COL[q.c]}" stroke="var(--bg)" stroke-width="1.5" data-i="${q.id}" onclick="tip(${q.id})" style="cursor:pointer"/>`});
+ $('#sv').innerHTML=s+`<line x1="${X(0)}" x2="${X(0)}" y1="${T}" y2="${H-B}" stroke="var(--acc)" stroke-width="1.5"/>`+ps+ds+'</svg>';
+ $('#cs').textContent=n?`${n}/${Q.length}問を習得済み。`:'まだ1問も解いていない。';
+ const tm=new Date(),hh=String(tm.getHours()).padStart(2,'0')+':'+String(tm.getMinutes()).padStart(2,'0');
+ $('#sl').dataset.t=`${hh} 時点（10分ごとに更新）`;$('#sl').textContent=(ah?`+${ah.toFixed(1)}日後の想定：75%を割る問題は${due}問。　`:'')+$('#sl').dataset.t;
+ $('#bn').innerHTML=BANDS.map((b,k)=>`<button class="bdb${bd===k?' on':''}" style="--bc:${b.c}" onclick="pb(${k})"><b>${b.t}</b><span>${cnt[k]}問</span></button>`).join('');
+ if(bd===null)$('#bl').innerHTML='';
+ else{const rows=items.filter(x=>x.k===bd).sort((a,b)=>a.r-b.r).map(x=>`<div class="row"><span style="color:${COL[x.q.c]}">●</span><span>${x.q.n}${isLk(x.q.id)?` <small>🔒あと${lkLeft(x.q.id)}分</small>`:''}</span><b>${Math.round(x.r*100)}%</b></div>`).join('');
+  $('#bl').innerHTML=`<div class="bl"><p class="lab">${BANDS[bd].t}にいる問題</p>${rows||'<p class="sub">該当なし。</p>'}</div>`}
+ $('#cd').innerHTML=now?`<button class="go" onclick="start('due')">75%未満の${Math.min(now,10)}問を復習する（計${now}問）</button>`:'';
+ $('#un').innerHTML=un.length?`<details><summary>未習得 ${un.length}問</summary><div class="nm">${un.map(x=>`<span>${x}</span>`).join('')}</div></details>`:'';
+}
+function tip(id){
+ hl=hl===id?null:id;draw();
+ const m=M[id],q=Q[id],r=Rt(m,ah),r0=m.r==null?1:m.r,left=r0>.75?-m.s*Math.log(.75/r0)-(hrs(m)+ah):-1;
+ $('#tip').textContent=`【${q.n}】定着度${Math.round(r*100)}%。`+(left>0?`あと約${left.toFixed(1)}日で75%を割る。`:'すでに75%未満。復習しろ。');
+}
+let zf={g:'all',u:0,st:'all',so:'id'},zo=null;
+const ZN={};Q.slice().sort((a,b)=>a.u-b.u||a.id-b.id).forEach((q,i)=>ZN[q.id]=i+1);
+const seen=id=>!!(M[id]||(S[id]&&S[id].n));
+const ago=ms=>{const m=Math.floor(ms/6e4);return m<1?'たった今':m<60?m+'分前':m<1440?Math.floor(m/60)+'時間前':Math.floor(m/1440)+'日前'};
+function zset(k,v){zf[k]=v;zo=null;zukan()}
+function zopen(id){zo=zo===id?null:id;zukan()}
+function zukan(){
+ tab='zk';nav(true);
+ const reg=Q.filter(q=>seen(q.id)).length,vs=Object.values(S),tn=vs.reduce((a,x)=>a+x.n,0),tc=vs.reduce((a,x)=>a+x.c,0);
+ const gr=g=>{const a=Q.filter(q=>q.c===g);return a.filter(q=>seen(q.id)).length+'/'+a.length};
+ const F={all:()=>1,seen:q=>seen(q.id),unseen:q=>!seen(q.id),due:q=>M[q.id]&&ret(q.id)<.75,weak:q=>S[q.id]&&S[q.id].n&&S[q.id].c/S[q.id].n<.5};
+ const K={id:q=>ZN[q.id],ret:q=>M[q.id]?ret(q.id):9,acc:q=>S[q.id]&&S[q.id].n?S[q.id].c/S[q.id].n:9,cnt:q=>-((S[q.id]||{n:0}).n)};
+ const L=Q.filter(q=>(zf.g==='all'||q.c===zf.g)&&(!zf.u||q.u===zf.u)&&F[zf.st](q)).sort((a,b)=>K[zf.so](a)-K[zf.so](b)||ZN[a.id]-ZN[b.id]);
+ const card=q=>{
+  const sn=seen(q.id),m=M[q.id],s=S[q.id]||{n:0,c:0},r=m?Math.round(ret(q.id)*100):null;
+  let h=`<button class="zc" id="z${q.id}" style="--cc:${COL[q.c]}" onclick="zopen(${q.id})"><span class="zn">#${String(ZN[q.id]).padStart(3,'0')}</span><span class="zt"><b>${sn?q.n:'？？？'}</b><small>${q.u} ${UN[q.u-1]}　${'★'.repeat(+D[q.id])}</small></span><span class="zr">${r===null?'—':r+'%'}</span></button>`;
+  if(zo!==q.id)return h;
+  if(!sn)return h+`<div class="zd"><p>未登録。</p></div>`;
+  const rs=WR[q.id].split('|'),r0=m&&m.r!=null?m.r:1,left=m?(r0>.75?-m.s*Math.log(.75/r0)-hrs(m):-1):null;
+  return h+`<div class="zd"><p class="zq">${q.q}</p><p><b>正解：</b>${q.a}</p>${q.o.slice(1).map((o,i)=>`<p class="zw">✕ ${o}　<small>${rs[i]}</small></p>`).join('')}<p><b>解説：</b>${q.e}</p>
+  <div class="zs"><div><b>${s.n}</b>出題</div><div><b>${s.n?Math.round(s.c/s.n*100)+'%':'—'}</b>正答率</div><div><b>${r===null?'—':r+'%'}</b>定着度</div></div>
+  <p class="sub" style="font-size:13px;margin:0">最終解答：${m?ago(Date.now()-m.t):'—'}　最後の自信：${m&&m.c!=null?CF[m.c]:'—'}${isLk(q.id)?'　🔒あと'+lkLeft(q.id)+'分':''}<br>解いた直後の位置：${m?Math.round(r0*100)+'%':'—'}　安定度：${m?m.s.toFixed(1)+'日':'—'}<br>75%を割るまで：${left===null?'—':left>0?left.toFixed(1)+'日':'すでに割れている'}</p></div>`;
+ };
+ const opt=(a,k)=>a.map(([v,t])=>`<option value="${v}"${zf[k]==v?' selected':''}>${t}</option>`).join('');
+ let list='',lu=0,lg='';
+ L.forEach(q=>{if(zf.so==='id'){if(q.c!==lg){lg=q.c;lu=0;list+=`<h2 class="zg" style="border-color:${COL[q.c]}">${q.c}分野</h2>`}if(q.u!==lu){lu=q.u;list+=`<p class="zu">${q.u} ${UN[q.u-1]}<small>　${L.filter(x=>x.u===q.u).length}問</small></p>`}}list+=card(q)});
+ $('#app').innerHTML=`<h1 class="ttl">図鑑</h1><section class="card"><div class="big">${reg}<small>/${Q.length}</small></div>
+ <div class="zbar"><i style="width:${reg/Q.length*100}%"></i></div>
+ <p class="sub" style="margin:8px 0 14px;font-size:13px">登録済み。政治分野${gr('政治')}、経済分野${gr('経済')}。総出題${tn}回・総正答率${tn?Math.round(tc/tn*100)+'%':'—'}。</p></section>
+ <div class="chips" style="margin-bottom:10px">${[['all','すべて','#b9c7da'],['政治','政治分野',COL['政治']],['経済','経済分野',COL['経済']]].map(([v,t,c])=>`<button class="chip ${zf.g===v?'on':''}" style="--cc:${c}" onclick="zset('g','${v}')">${t}</button>`).join('')}</div>
+ <div class="zsel"><select aria-label="単元" style="grid-column:1/-1" onchange="zset('u',+this.value)"><option value="0">全単元</option>${UN.map((x,i)=>`<option value="${i+1}"${zf.u===i+1?' selected':''}>${i+1} ${x}</option>`).join('')}</select>
+ <select aria-label="絞り込み" onchange="zset('st',this.value)">${opt([['all','全部'],['seen','登録済み'],['unseen','未登録'],['due','復習対象（75%未満）'],['weak','苦手（正答率50%未満）']],'st')}</select>
+ <select aria-label="並び順" onchange="zset('so',this.value)">${opt([['id','番号順'],['ret','定着度が低い順'],['acc','正答率が低い順'],['cnt','出題が多い順']],'so')}</select></div>
+ <p class="sub" style="font-size:13px;margin:12px 0 0">${L.length}件</p>${list||'<p class="sub">該当なし。</p>'}`;
+}
+const KQ=[
+{g:'経済',h:'社会保障',f:'表の読み取り',b:'<p>次の表は、学習用に作成した架空の3か国における社会保障給付の対GDP比（％）である。</p><table class="kt"><tr><th></th><th>医療</th><th>年金</th><th>福祉その他</th><th>合計</th></tr><tr><th>A国</th><td>7.0</td><td>10.0</td><td>4.0</td><td>21.0</td></tr><tr><th>B国</th><td>6.0</td><td>7.0</td><td>5.0</td><td>18.0</td></tr><tr><th>C国</th><td>8.0</td><td>5.0</td><td>9.0</td><td>22.0</td></tr></table>',q:'表から読み取れる記述として最も適当なものを、次の①〜④のうちから一つ選べ。',o:['A国について、合計に占める年金の割合は50％を超えている。','B国について、医療と福祉その他の合計は、年金より大きい。','年金の数値が最も大きいのは、C国である。','合計の数値が最も大きいのは、A国である。'],a:1,e:'①は10.0÷21.0≒48％で50％未満。②は6.0＋5.0＝11.0で年金7.0より大きく正しい。③は年金最大がA国。④は合計最大がC国。',r:[156,155,22,96,97]},
+{g:'経済',h:'金融政策',f:'語句の組合せ',b:'<p>A：景気が悪いとき、日本銀行は国債などを買って資金を供給する（ア）オペレーションを行うよね。</p><p>B：すると政策金利は（イ）方向に動くはずだ。これは（ウ）政策に分類されるね。</p>',q:'会話文中のア〜ウに入る語句の組合せとして最も適当なものを、次の①〜⑧のうちから一つ選べ。',o:['ア 売り　イ 低下　ウ 金融','ア 売り　イ 低下　ウ 財政','ア 売り　イ 上昇　ウ 金融','ア 売り　イ 上昇　ウ 財政','ア 買い　イ 低下　ウ 財政','ア 買い　イ 低下　ウ 金融','ア 買い　イ 上昇　ウ 金融','ア 買い　イ 上昇　ウ 財政'],a:5,e:'不況期は買いオペで資金を供給し、金利が低下する。日銀が行うので金融政策だ。財政政策は政府が行う。',r:[12,71,69,144,72]},
+{g:'政治',h:'国会',f:'正誤の組合せ',b:'<p>ア　憲法改正の発議には、各議院の総議員の3分の2以上の賛成が必要である。</p><p>イ　内閣総理大臣の指名で衆議院と参議院が異なる指名をし、両院協議会でも一致しないときは、参議院の議決が国会の議決となる。</p>',q:'ア・イの正誤の組合せとして最も適当なものを、次の①〜④のうちから一つ選べ。',o:['ア―正　イ―正','ア―正　イ―誤','ア―誤　イ―正','ア―誤　イ―誤'],a:1,e:'アは正しい。イは、首相指名では衆議院の議決が国会の議決になる（衆議院の優越）。',r:[117,1,3,49]},
+{g:'政治',h:'地方自治',f:'会話文',b:'<p>A：うちの町は自主財源が少なく、国からの財政支出に頼っているんだ。この状況は（ア）と呼ばれるよね。</p><p>B：国から配分される地方交付税は、（イ）という特徴があるよ。</p><p><b>ア</b>に入る語句　a 三割自治　b 住民自治<br><b>イ</b>に入る記述　c 国が使途を指定せず配分する　d 国が使途を指定して配分する</p>',q:'ア・イに入るものの組合せとして最も適当なものを、次の①〜④のうちから一つ選べ。',o:['ア―b　イ―c','ア―b　イ―d','ア―a　イ―d','ア―a　イ―c'],a:3,e:'自主財源の乏しさは三割自治。地方交付税は使途が自由で、使途が特定されるのは国庫支出金だ。',r:[129,35,34,128,33]},
+{g:'経済',h:'為替',f:'会話文',b:'<p>A：円高が進むと、輸入品の円での価格は（ア）なるよね。</p><p>B：一方、輸出企業にとっては（イ）。</p><p><b>ア</b>に入る語句　a 安く　b 高く　c 変わらず<br><b>イ</b>に入る記述　d 円建ての収益が減りやすい　e 円建ての収益が増えやすい</p>',q:'ア・イに入るものの組合せとして最も適当なものを、次の①〜⑥のうちから一つ選べ。',o:['ア―c　イ―e','ア―b　イ―d','ア―a　イ―e','ア―b　イ―e','ア―a　イ―d','ア―c　イ―d'],a:4,e:'円高では、輸入品は円で割安になり、輸出企業は円に換算した収益が減りやすい。',r:[18,159,87,88,19]},
+{g:'経済',h:'産業構造',f:'表の読み取り',b:'<p>次の表は、学習用に作成した架空の国の産業別就業者割合（％）である。</p><table class="kt"><tr><th></th><th>第1次</th><th>第2次</th><th>第3次</th></tr><tr><th>1980年</th><td>20</td><td>35</td><td>45</td></tr><tr><th>2000年</th><td>10</td><td>33</td><td>57</td></tr><tr><th>2020年</th><td>5</td><td>25</td><td>70</td></tr></table><p>ア　1980年から2020年にかけて、第3次産業の割合は25ポイント上昇した。<br>イ　第2次産業の割合は、1980年、2000年、2020年と一貫して低下している。<br>ウ　1980年から2020年にかけての低下幅は、第2次産業のほうが第1次産業より大きい。</p>',q:'表から読み取れる記述として正しいものをすべて選び、その組合せとして最も適当なものを、次の①〜⑦のうちから一つ選べ。',o:['ア','イ','ウ','アとイ','アとウ','イとウ','アとイとウ'],a:3,e:'アは70−45＝25で正しい。イは35→33→25で正しい。ウは、第1次が15、第2次が10の低下で誤り。',r:[14,61,62,151]},
+{g:'経済',h:'環境問題',f:'並べ替え',b:'<p>環境問題に関する国際社会の取組みについて、カードa〜eにまとめた。最初に起きたのがa、最後に起きたのがeである。</p><p>a　人間環境宣言が採択された国連人間環境会議<br>b　アジェンダ21が採択された「地球サミット」<br>c　先進国に温室効果ガスの排出削減を義務づけた京都議定書の採択<br>d　持続可能な開発に関する世界首脳会議（ヨハネスブルク）<br>e　すべての国が削減に取り組むパリ協定の採択</p>',q:'b〜dを古いものから順に並べたものとして正しいものを、次の①〜⑥のうちから一つ選べ。',o:['d→b→c','b→d→c','b→c→d','c→b→d','c→d→b','d→c→b'],a:2,e:'1972年（a）→1992年（b）→1997年（c）→2002年（d）→2015年（e）の順だ。',r:[93,160,161,92,24]},
+{g:'政治',h:'人権の判例',f:'適当でないもの',b:'<p>日本の最高裁判所の判例について学んだ。</p>',q:'最高裁判所の判決に関する記述として適当でないものを、次の①〜④のうちから一つ選べ。',o:['愛媛玉串料訴訟では、県が神社に公金から玉串料を支出したことは違憲とされた。','津地鎮祭訴訟では、市が地鎮祭に公金を支出したことは合憲とされた。','尊属殺人の重罰規定は、法の下の平等に反するとして違憲とされた。','三菱樹脂事件では、採用拒否が憲法違反であるとされた。'],a:3,e:'三菱樹脂事件で最高裁は、人権規定は私人間に直接適用されないとし、採用拒否を違憲とはしなかった。',r:[43,120,121,29,39]},
+{g:'政治',h:'選挙制度',f:'会話文',b:'<p>A：小選挙区制は大政党に有利で、（ア）が多く出やすいよね。</p><p>B：一方、比例代表制は、（イ）が議席に反映されやすいんだ。</p><p><b>ア</b>に入る語句　a 死票　b 棄権<br><b>イ</b>に入る記述　c 少数意見　d 大政党の意見のみ</p>',q:'ア・イに入るものの組合せとして最も適当なものを、次の①〜④のうちから一つ選べ。',o:['ア―b　イ―d','ア―a　イ―d','ア―a　イ―c','ア―b　イ―c'],a:2,e:'小選挙区制は落選者への票（死票）が多くなりやすい。比例代表制は得票に応じて配分されるので少数意見も反映されやすい。',r:[130,5,41,42,31]},
+{g:'政治',h:'国際連合',f:'すべて選ぶ',b:'<p>ア　安全保障理事会の常任理事国は、いずれも拒否権をもつ。<br>イ　国際司法裁判所は、紛争の一方の国の申立てだけで、相手国の同意なしに必ず裁判を始めることができる。<br>ウ　国連総会では、加盟国は一国一票の投票権をもつ。</p>',q:'正しいものをすべて選び、その組合せとして最も適当なものを、次の①〜⑦のうちから一つ選べ。',o:['ア','イ','ウ','アとイ','アとウ','イとウ','アとイとウ'],a:4,e:'ア・ウは正しい。イは、国際司法裁判所の裁判には、紛争当事国の同意が必要だ。',r:[20,75,76,132,78]},
+{g:'経済',h:'財政',f:'正誤の組合せ',b:'<p>ア　財政法は、原則として赤字国債（特例国債）の発行を認めている。</p><p>イ　プライマリーバランスは、公債金を除く歳入と、国債費を除く歳出との差である。</p>',q:'ア・イの正誤の組合せとして最も適当なものを、次の①〜④のうちから一つ選べ。',o:['ア―正　イ―正','ア―正　イ―誤','ア―誤　イ―正','ア―誤　イ―誤'],a:2,e:'アは、財政法が原則として認めるのは建設国債で、赤字国債は特例法で発行する。イは正しい。',r:[66,67,68,147,65,146]},
+{g:'経済',h:'労働',f:'会話文',b:'<p>A：日本的経営は、（ア）、年功序列型賃金、企業別労働組合が特徴とされてきたよね。</p><p>B：近年は、（イ）の割合が高まって、雇用の流動化が進んでいるよ。</p><p><b>ア</b>に入る語句　a 終身雇用　b 成果主義<br><b>イ</b>に入る語句　c 非正規雇用　d 正規雇用</p>',q:'ア・イに入るものの組合せとして最も適当なものを、次の①〜④のうちから一つ選べ。',o:['ア―b　イ―d','ア―b　イ―c','ア―a　イ―d','ア―a　イ―c'],a:3,e:'日本的経営の三種の神器は終身雇用・年功序列型賃金・企業別労働組合。近年は非正規雇用が増えている。',r:[153,154,98,23,122]}
+];
+let KS={};try{KS=JSON.parse(localStorage.getItem('seikeiK')||'{}')}catch(e){}
+let kn=0,kp=null;
+function kt(){
+ tab='kt';nav(true);
+ $('#app').innerHTML=`<h1 class="ttl">共テ形式</h1>`+KQ.map((k,i)=>{const s=KS[i];return `<button class="zc" style="--cc:${COL[k.g]}" onclick="kopen(${i})"><span class="zn">第${i+1}問</span><span class="zt"><b>${k.h}</b><small>${k.f}</small></span><span class="zr">${s?(s.c?'○':'×'):'—'}</span></button>`}).join('');
+}
+function kopen(i){kn=i;kp=null;window.scrollTo(0,0);kview()}
+function kview(){
+ nav(false);
+ const k=KQ[kn],dn=kp!==null,CN='①②③④⑤⑥⑦⑧';
+ $('#app').innerHTML=`<button class="mini" style="margin-bottom:12px" onclick="kt()">← 一覧へ</button>
+ <h1 class="ttl">第${kn+1}問<small>${k.h}　${k.f}</small></h1>
+ <section class="card kb">${k.b}</section>
+ <h2 class="q">${k.q}</h2>
+ <div class="kopts">${k.o.map((o,j)=>`<button class="kopt${dn?(j===k.a?' ok':j===kp?' ng':' dim'):''}" onclick="kans(${j})">${CN[j]}　${o}</button>`).join('')}</div>
+ ${dn?`<div class="fb ${kp===k.a?'ok':'ng'}"><p class="v">${kp===k.a?'正解だ。':'不正解。正解は'+CN[k.a]+'だ。'}</p><p>${k.e}</p></div>`:''}
+ <section class="card" style="margin-top:14px"><p class="lab">関連する問題（図鑑番号）</p><div class="chips">${k.r.map(id=>`<button class="chip" onclick="zjump(${id})">#${String(ZN[id]).padStart(3,'0')}${seen(id)?' '+Q[id].n:''}</button>`).join('')}</div></section>
+ <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><button class="ghost" ${kn>0?`onclick="kopen(${kn-1})"`:'disabled'}>← 前の問題</button><button class="ghost" ${kn<KQ.length-1?`onclick="kopen(${kn+1})"`:'disabled'}>次の問題 →</button></div>`;
+}
+function kans(j){
+ if(kp!==null)return;kp=j;const k=KQ[kn],s=KS[kn]||{n:0};
+ KS[kn]={c:j===k.a?1:0,n:s.n+1};try{localStorage.setItem('seikeiK',JSON.stringify(KS))}catch(e){}dirty();
+ kview();const f=document.querySelector('.fb');if(f)f.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+function zjump(id){zf={g:'all',u:0,st:'all',so:'id'};zo=id;zukan();const e=document.getElementById('z'+id);if(e)e.scrollIntoView({block:'center'})}
+let mvp=0;
+function mv(){
+ if(mvp)return;
+ mvp=requestAnimationFrame(()=>{mvp=0;
+  const X=d=>34+(d+2)/6*316,Y=r=>10+(1-r)*264;let due=0;
+  document.querySelectorAll('#sv circle[data-i]').forEach(c=>{const r=Rt(M[+c.dataset.i],ah);c.setAttribute('cx',X(ah));c.setAttribute('cy',Y(r));if(r<.75)due++});
+  const s=$('#sl');if(s)s.textContent=(ah?`+${ah.toFixed(1)}日後の想定：75%を割る問題は${due}問。　`:'')+(s.dataset.t||'');
+ });
+}
+const hesc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let DB=null,UID=null,acc={st:'init',name:'',t:0,err:''},svT=0,svBusy=false,svAgain=false;
+function acIn(){
+ const on=acc.st==='on',t=acc.t?new Date(acc.t).toLocaleTimeString('ja-JP',{hour:'2-digit',minute:'2-digit'}):'';
+ return `<div class="gh"><p class="lab" style="margin:0">アカウント</p>${on?`<button class="mini" onclick="saveNow()">今すぐ保存</button>`:''}</div><p class="sub" style="margin:0">${acc.st==='init'?'確認中…':on?`ログイン中${acc.name?'：'+hesc(acc.name):''}　${t?'最終保存 '+t:'保存の準備ができた'}`:'未ログイン。データはこの端末にだけ保存される。'}${acc.err?`<br>保存に失敗した（${hesc(acc.err)}）。`:''}</p>`;
+}
+function acRefresh(){const e=document.getElementById('ac');if(e)e.innerHTML=acIn()}
+function persistLocal(){try{localStorage.setItem('seikeiM',JSON.stringify(M));localStorage.setItem('seikeiS',JSON.stringify(S));localStorage.setItem('seikeiK',JSON.stringify(KS));localStorage.setItem('seikeiG',JSON.stringify(G))}catch(e){}}
+function mergeIn(c){
+ if(!c)return;
+ const m=c.M||{},s=c.S||{},k=c.KS||{},g=c.G||{};
+ for(const i in m){const a=M[i];if(!a||m[i].t>a.t)M[i]=m[i]}
+ for(const i in s){const a=S[i];if(!a||s[i].n>a.n)S[i]=s[i]}
+ for(const i in k){const a=KS[i];if(!a||k[i].n>a.n)KS[i]=k[i]}
+ for(const i in g){const a=G[i];if(!a||g[i][1]>a[1])G[i]=g[i]}
+ persistLocal();
+}
+async function saveNow(){
+ if(acc.st!=='on')return;
+ if(svBusy){svAgain=true;return}
+ svBusy=true;
+ try{await DB.collection('data/users/'+UID).doc('save').set({v:1,M,S,KS,G,savedAt:Date.now()});acc.t=Date.now();acc.err=''}
+ catch(e){acc.err=(e&&e.code)||'error'}
+ svBusy=false;acRefresh();
+ if(svAgain){svAgain=false;dirty()}
+}
+function dirty(){if(acc.st!=='on')return;clearTimeout(svT);svT=setTimeout(()=>{saveNow();rkPush()},3000)}
+async function acInit(){
+ try{
+  if(typeof claude==='undefined'||!claude.use){acc.st='off';acRefresh();return}
+  const u=await claude.use('user'),d=await claude.use('db');
+  const id=u?await u.id():null;
+  if(!u||!d||!id){acc.st='off';acRefresh();return}
+  const me=await u.me();
+  UID=id;DB=d;acc.name=me&&me.name||'';acc.st='on';try{acc.cw=u.can?await u.can('data.write'):null}catch(e){}
+  const snap=await d.collection('data/users/'+id).doc('save').get();
+  if(snap.exists)mergeIn(snap.data());
+  await saveNow();
+  if(document.getElementById('sv')||document.getElementById('ac'))home();
+ }catch(e){acc.st='off';acc.err=(e&&e.code)||'';acRefresh()}
+}
+let RK=null,rkSort='ret';
+try{RK=JSON.parse(localStorage.getItem('seikeiRank')||'null')}catch(e){}
+const hx=b=>[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('');
+async function rkId(n){return hx(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(n.normalize('NFKC').trim().toLowerCase()))).slice(0,32)}
+async function rkHash(pw,saltHex){
+ const salt=Uint8Array.from(saltHex.match(/../g).map(h=>parseInt(h,16))),k=await crypto.subtle.importKey('raw',new TextEncoder().encode(pw),'PBKDF2',false,['deriveBits']);
+ return hx(await crypto.subtle.deriveBits({name:'PBKDF2',hash:'SHA-256',salt,iterations:100000},k,256));
+}
+function myStats(){let ret=0,lrn=0,cor=0,att=0;for(const k in M){lrn++;ret+=Rt(M[k],0)}for(const k in S){cor+=S[k].c;att+=S[k].n}return{ret:Math.round(ret*10)/10,lrn,cor,att}}
+function rkSay(m){const e=document.getElementById('rkm');if(e)e.innerHTML=m?`<div class="weak">${hesc(m)}</div>`:''}
+function rkSave(){try{localStorage.setItem('seikeiRank',JSON.stringify(RK))}catch(e){}}
+async function rkReg(){
+ const n=$('#rkn').value.trim(),p=$('#rkp').value;
+ if(n.length<1||n.length>12)return rkSay('名前は1〜12文字にしろ。');
+ if(p.length<4)return rkSay('パスワードは4文字以上にしろ。');
+ try{
+  const id=await rkId(n),ref=DB.collection('board').doc(id);
+  if((await ref.get()).exists)return rkSay('その名前はすでに使われている。ログインするか、別の名前にしろ。');
+  const salt=hx(crypto.getRandomValues(new Uint8Array(16))),hash=await rkHash(p,salt);
+  await ref.set({name:n,salt,hash,...myStats(),upd:Date.now()});
+  RK={id,name:n,hash};rkSave();rank();
+ }catch(e){rkSay('登録に失敗した（'+((e&&e.code)||'error')+'）。書き込み権限がない可能性がある。')}
+}
+async function rkIn(){
+ const n=$('#rkn').value.trim(),p=$('#rkp').value;
+ if(!n||!p)return rkSay('名前とパスワードを入れろ。');
+ try{
+  const id=await rkId(n),s=await DB.collection('board').doc(id).get();
+  if(!s.exists)return rkSay('名前かパスワードが違う。');
+  const d=s.data();
+  if(await rkHash(p,d.salt)!==d.hash)return rkSay('名前かパスワードが違う。');
+  RK={id,name:d.name,hash:d.hash};rkSave();await rkPush();rank();
+ }catch(e){rkSay('ログインに失敗した（'+((e&&e.code)||'error')+'）。')}
+}
+function rkOut(){RK=null;rkSave();rank()}
+async function rkPush(){
+ if(!RK||acc.st!=='on'||acc.cw===false)return;
+ try{const ref=DB.collection('board').doc(RK.id),s=await ref.get();if(!s.exists||s.data().hash!==RK.hash)return;await ref.update({...myStats(),upd:Date.now()})}catch(e){}
+ if(document.getElementById('rkl'))rkList();
+}
+function rkSet(k){rkSort=k;rank()}
+async function rkList(){
+ const e=document.getElementById('rkl');if(!e)return;
+ try{
+  const s=await DB.collection('board').orderBy(rkSort,'desc').limit(100).get();
+  const rows=s.docs.map((d,i)=>{const x=d.data(),v=rkSort==='ret'?(x.ret||0).toFixed(1):(x[rkSort]||0);return `<div class="row rk${RK&&d.id===RK.id?' me':''}"><b class="rn">${i+1}</b><span>${hesc(x.name||'')}</span><b>${v}</b></div>`}).join('');
+  e.innerHTML=rows?`<section class="card">${rows}</section>`:'<p class="sub">まだ誰も登録していない。</p>';
+ }catch(er){e.innerHTML=`<p class="sub">ランキングを読み込めなかった（${hesc((er&&er.code)||'error')}）。</p>`}
+}
+function rank(){
+ tab='rk';nav(true);
+ const on=acc.st==='on';
+ let top='';
+ if(!on)top='<section class="card"><p class="sub" style="margin:0">ランキングは、Claude上でこのページを開いたときだけ使える。</p></section>';
+ else if(acc.cw===false)top='<section class="card"><p class="sub" style="margin:0">書き込み権限がないので登録できない。閲覧はできる。</p></section>';
+ else if(RK)top=`<section class="card"><div class="gh"><p class="lab" style="margin:0">登録中</p><button class="mini" onclick="rkOut()">ログアウト</button></div><p style="margin:0;font-weight:900;font-size:18px">${hesc(RK.name)}</p><p class="sub" style="margin:4px 0 0;font-size:13px">解くたびに自動で反映される。</p><button class="ghost" style="margin:12px 0 0" onclick="rkPush()">今すぐ反映</button></section>`;
+ else top='<section class="card"><p class="lab">名前とパスワードで参加</p><input id="rkn" class="in" maxlength="12" placeholder="名前（12文字まで）" autocomplete="off"><input id="rkp" class="in" type="password" placeholder="パスワード（4文字以上）" autocomplete="off"><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px"><button class="go" style="margin:0;font-size:16px" onclick="rkReg()">登録</button><button class="ghost" style="margin:0" onclick="rkIn()">ログイン</button></div><p class="sub" style="font-size:12px;margin:10px 0 0">本物のアカウントではない。大事なパスワードは使い回すな。</p></section>';
+ $('#app').innerHTML=`<h1 class="ttl">順位</h1><div id="rkm"></div>${top}`+(on?`<div class="chips" style="margin-bottom:12px">${[['ret','定着度の合計'],['cor','累計正解数'],['lrn','習得した問題数']].map(([k,t])=>`<button class="chip ${rkSort===k?'on':''}" style="--cc:var(--acc)" onclick="rkSet('${k}')">${t}</button>`).join('')}</div><div id="rkl"><p class="sub">読み込み中…</p></div>`:'');
+ if(on)rkList();
+}
+const tick=()=>{if($('#sv'))draw()};
+setInterval(tick,HR);document.addEventListener('visibilitychange',()=>{if(!document.hidden)tick()});
+function tm(){const h=document.documentElement,on=h.dataset.theme!=='gold';if(on)h.dataset.theme='gold';else delete h.dataset.theme;try{localStorage.setItem('seikeiTheme',on?'gold':'')}catch(e){}}
+try{if(localStorage.getItem('seikeiTheme')==='gold')document.documentElement.dataset.theme='gold'}catch(e){}
+home();
+acInit();
+</script>
+
+</body>
+</html>
